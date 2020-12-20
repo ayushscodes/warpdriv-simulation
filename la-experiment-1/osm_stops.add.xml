@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun Dec 20 13:39:41 2020 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="/usr/local/opt/sumo/share/sumo/data/typemap/osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1419803117" name="Palms &amp; Exposition (Palms Station)" lane="-150913661#0_0" startPos="0.00" endPos="10.07" friendlyPos="true" lines="17"/>
+    <busStop id="-1419803127" name="Westwood &amp; National" lane="-398778788#0_0" startPos="2.14" endPos="17.14" friendlyPos="true" lines="Rapid 12 8 3"/>
+    <busStop id="-1419803130" name="National &amp; Overland" lane="-404964734#0_0" startPos="28.66" endPos="39.63" friendlyPos="true" lines="3"/>
+    <busStop id="-1419803131" name="Palms &amp; Jasmine" lane="-398579023_0" startPos="13.01" endPos="20.95" friendlyPos="true" lines="17"/>
+    <busStop id="-1419803137" name="Palms &amp; Motor" lane="-398579026#0_0" startPos="6.61" endPos="21.61" friendlyPos="true" lines="17"/>
+    <busStop id="-3946400402" name="Motor &amp; Regent" lane="-150913651#17_0" startPos="212.36" endPos="222.99" friendlyPos="true" lines="3"/>
+    <busStop id="-3960923707" name="Motor &amp; Washington" lane="-167923730#3_0" startPos="17.07" endPos="32.07" friendlyPos="true" lines="3"/>
+    <busStop id="-3960923719" name="Motor &amp; Venice" lane="-150913651#19_0" startPos="0.57" endPos="15.57" friendlyPos="true" lines="3"/>
+    <busStop id="-3960923736" name="Motor &amp; Tabor" lane="-150913651#13_0" startPos="135.55" endPos="150.47" friendlyPos="true" lines="3"/>
+    <busStop id="-3960923737" name="Motor &amp; Palms" lane="-150913651#10_0" startPos="141.06" endPos="156.06" friendlyPos="true" lines="3"/>
+    <busStop id="-3960923747" name="Motor &amp; Woodbine" lane="-150913651#4_0" startPos="11.84" endPos="26.84" friendlyPos="true" lines="3"/>
+    <busStop id="-3960933181" name="National &amp; Motor" lane="-881824222#0_0" startPos="0.00" endPos="13.72" friendlyPos="true" lines="3"/>
+    <busStop id="-3961825566" name="Palms &amp; Overland" lane="-398579028#1_0" startPos="9.70" endPos="24.70" friendlyPos="true" lines="17"/>
+    <busStop id="-4075193950" name="Sepulveda &amp; Washington Pl." lane="-397975349#0_0" startPos="8.61" endPos="23.61" friendlyPos="true" lines="6"/>
+    <busStop id="-4075193952" name="Sepulveda &amp; Washington Blvd." lane="-397977053#4_0" startPos="9.26" endPos="24.26" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-4075193953" name="Washington &amp; Sepulveda" lane="-398000201#1_0" startPos="39.66" endPos="54.66" friendlyPos="true" lines="1"/>
+    <busStop id="-4075193956" name="Sepulveda &amp; Sawtelle" lane="-398030561_0" startPos="35.90" endPos="50.90" friendlyPos="true" lines="4 3 6 Rapid 6"/>
+    <busStop id="-5001836121" name="Overland &amp; National Place" lane="-398783439#2_0" startPos="18.34" endPos="33.34" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="-5438732535" name="Sepulveda &amp; Exposition" lane="-404988214#3_0" startPos="27.93" endPos="42.93" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-6278468517" name="Martin Luther King Jr/Degnan" lane="-398239900_0" startPos="10.05" endPos="25.05" friendlyPos="true" lines="40 Leimert/Slauson"/>
+    <busStop id="-6278468524" name="Crenshaw/Stocker" lane="-398235803#0_0" startPos="0.00" endPos="9.47" friendlyPos="true" lines="40 105 210 740 710 Leimert/Slauson"/>
+    <busStop id="-6278468526" name="Crenshaw/43rd St." lane="-398235789#0_0" startPos="0.00" endPos="9.17" friendlyPos="true" lines="40 105 210 Leimert/Slauson"/>
+    <busStop id="-7814246324" name="Westwood &amp; Exposition (Westwood Station)" lane="-826085998_0" startPos="0.00" endPos="13.89" friendlyPos="true" lines="Rapid 12 8"/>
+    <busStop id="-7814287978" name="Overland &amp; Rose" lane="-398783440#2_0" startPos="17.90" endPos="30.34" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="-7814287979" name="Overland &amp; Palms" lane="-398605037_0" startPos="0.00" endPos="14.64" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="-7814287980" name="Overland &amp; Charnock" lane="-383987420#1_0" startPos="24.49" endPos="38.51" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="-7821903989" name="Washington &amp; Overland" lane="-384176167#0_0" startPos="43.15" endPos="58.15" friendlyPos="true" lines="1 3"/>
+    <busStop id="-7821961927" name="Palms &amp; Glendon" lane="-404964739_0" startPos="14.77" endPos="28.06" friendlyPos="true" lines="17"/>
+    <busStop id="-7821961929" name="Palms &amp; Kelton" lane="-404964737#1_0" startPos="0.00" endPos="8.79" friendlyPos="true" lines="17"/>
+    <busStop id="-7821961931" name="Palms &amp; Sepulveda" lane="-428122812_0" startPos="25.25" endPos="39.53" friendlyPos="true" lines="17"/>
+    <busStop id="-7821961932" name="Sawtelle &amp; Palms" lane="-398754261_0" startPos="40.99" endPos="55.99" friendlyPos="true" lines="17"/>
+    <busStop id="-7830899742" name="Westwood &amp; Coventry" lane="-404964745#1_0" startPos="25.23" endPos="33.43" friendlyPos="true" lines="8 3"/>
+    <busStop id="-7830899743" name="Westwood &amp; Ashby (Westwood Station)" lane="-398414289_0" startPos="20.11" endPos="35.11" friendlyPos="true" lines="3"/>
+    <busStop id="-7830899745" name="National &amp; Valparaiso" lane="-150945326#3_0" startPos="6.09" endPos="21.09" friendlyPos="true" lines="3"/>
+    <busStop id="-7830975319" name="National &amp; Kelton" lane="-37689821#3_0" startPos="68.52" endPos="83.52" friendlyPos="true" lines="8"/>
+    <busStop id="-7830975320" name="National &amp; Military" lane="-398771138#1_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="8"/>
+    <busStop id="-7830975323" name="National &amp; Sepulveda" lane="-398771136#0_0" startPos="18.78" endPos="33.78" friendlyPos="true" lines="8"/>
+    <busStop id="-7830975324" name="Sepulveda &amp; National" lane="-398775795#1_0" startPos="34.43" endPos="49.43" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-7830975326" name="Sawtelle &amp; National" lane="-181978103_0" startPos="30.73" endPos="45.73" friendlyPos="true" lines="17"/>
+    <busStop id="-7830975329" name="National &amp; Sawtelle" lane="-398770661#2_0" startPos="3.47" endPos="18.47" friendlyPos="true" lines="8"/>
+    <busStop id="-7831489190" name="National &amp; Castle Heights" lane="-393132599#6_0" startPos="9.59" endPos="19.28" friendlyPos="true" lines="17"/>
+    <busStop id="-7831489192" name="National &amp; Bagley" lane="-393132599#0_0" startPos="68.66" endPos="83.66" friendlyPos="true" lines="17"/>
+    <busStop id="-7831489195" name="National &amp; Robertson" lane="-24655523#0_0" startPos="38.91" endPos="47.45" friendlyPos="true" lines="17"/>
+    <busStop id="-7831489202" name="Washington &amp; Landmark" lane="-456928137#1_0" startPos="13.87" endPos="28.87" friendlyPos="true" lines="1"/>
+    <busStop id="-7831489204" name="Washington &amp; Higuera" lane="-398589935#1_0" startPos="0.00" endPos="10.92" friendlyPos="true" lines="1"/>
+    <busStop id="-7833716155" name="Sepulveda &amp; Charnock" lane="-404954667_0" startPos="11.03" endPos="26.03" friendlyPos="true" lines="6"/>
+    <busStop id="-7833716156" name="Sepulveda &amp; Palms" lane="-398775798_0" startPos="11.31" endPos="26.31" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-7833716159" name="Sepulveda &amp; Queensland" lane="-398775792_0" startPos="27.69" endPos="42.69" friendlyPos="true" lines="6"/>
+    <busStop id="-7833716161" name="Sepulveda &amp; Sardis" lane="-338171896#4_0" startPos="97.47" endPos="112.47" friendlyPos="true" lines="6"/>
+    <busStop id="-7833716163" name="Sepulveda &amp; Richland" lane="-759476634#2_0" startPos="54.20" endPos="69.20" friendlyPos="true" lines="6"/>
+    <busStop id="-7833865484" name="Sawtelle &amp; Stanwood" lane="-398754264#0_0" startPos="9.83" endPos="24.83" friendlyPos="true" lines="17"/>
+    <busStop id="-7833909187" name="Sawtelle &amp; Ivy" lane="-398253258#2_0" startPos="0.00" endPos="10.94" friendlyPos="true" lines="17"/>
+    <busStop id="-7836553533" name="Motor &amp; Bannockburn" lane="-288116300#3_0" startPos="72.35" endPos="87.35" friendlyPos="true" lines="5"/>
+    <busStop id="-7836553535" name="Motor &amp; Cheviot" lane="-288116300#6_0" startPos="49.16" endPos="64.16" friendlyPos="true" lines="5"/>
+    <busStop id="-7838215468" name="Madison &amp; Culver" lane="-394767352#1_0" startPos="43.10" endPos="53.99" friendlyPos="true" lines="5"/>
+    <busStop id="-7838215476" name="Overland &amp; Culver" lane="-398052775#4_0" startPos="6.75" endPos="21.75" friendlyPos="true" lines="3"/>
+    <busStop id="-7838215478" name="Washington &amp; Motor" lane="-392897624#1_0" startPos="28.80" endPos="36.47" friendlyPos="true" lines="1"/>
+    <busStop id="-7838215481" name="Washington &amp; Jasmine" lane="-392897624#6_0" startPos="83.29" endPos="93.59" friendlyPos="true" lines="1"/>
+    <busStop id="-7838215482" name="Washington &amp; Clarington" lane="-398601898#0_0" startPos="0.00" endPos="8.25" friendlyPos="true" lines="1"/>
+    <busStop id="-7842185656" name="Washington &amp; Culver Center" lane="-511823420#3_0" startPos="34.72" endPos="49.72" friendlyPos="true" lines="1"/>
+    <busStop id="-7842185658" name="Washington &amp; Elenda" lane="-384176165#3_0" startPos="27.51" endPos="42.51" friendlyPos="true" lines="1"/>
+    <busStop id="-7842185660" name="Washington &amp; Prospect" lane="-384176165#0_0" startPos="41.75" endPos="56.75" friendlyPos="true" lines="1"/>
+    <busStop id="-7842185665" name="Sepulveda &amp; Venice" lane="-384002611#4_0" startPos="7.62" endPos="22.62" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-7844034162" name="Culver &amp; Harter" lane="-384001408_0" startPos="219.83" endPos="234.83" friendlyPos="true" lines="7"/>
+    <busStop id="-7844034166" name="Sepulveda &amp; Culver" lane="-397979312#0_0" startPos="15.60" endPos="30.60" friendlyPos="true" lines="6"/>
+    <busStop id="-7844223314" name="Overland &amp; Braddock" lane="-398052774#0_0" startPos="16.16" endPos="31.16" friendlyPos="true" lines="3"/>
+    <busStop id="-7844223317" name="Braddock &amp; Overland" lane="-665212184#13_0" startPos="3.91" endPos="18.91" friendlyPos="true" lines="5"/>
+    <busStop id="-7844223318" name="Overland &amp; Franklin" lane="-150911625#8_0" startPos="0.00" endPos="8.56" friendlyPos="true" lines="3"/>
+    <busStop id="-7844223320" name="Overland &amp; Virginia" lane="-384145899#2_0" startPos="18.18" endPos="33.18" friendlyPos="true" lines="3"/>
+    <busStop id="-7844427518" name="Sepulveda &amp; Braddock" lane="-723808805_0" startPos="9.08" endPos="24.08" friendlyPos="true" lines="6"/>
+    <busStop id="-7844427519" name="Braddock &amp; Sepulveda" lane="-867901251#5_0" startPos="23.46" endPos="36.35" friendlyPos="true" lines="5"/>
+    <busStop id="-7844427520" name="Sepulveda &amp; Lucerne" lane="-149003093#5_0" startPos="2.93" endPos="17.52" friendlyPos="true" lines="6"/>
+    <busStop id="-7844427522" lane="-185735929#4_0" startPos="43.95" endPos="58.95" friendlyPos="true" lines="6"/>
+    <busStop id="-7844427525" name="Sepulveda &amp; Janisann" lane="-405301784#0_0" startPos="49.78" endPos="64.78" friendlyPos="true" lines="6"/>
+    <busStop id="-7855686325" name="Washington &amp; Sawtelle" lane="-404956253_0" startPos="15.04" endPos="30.04" friendlyPos="true" lines="1"/>
+    <busStop id="-7855686328" name="Washington &amp; Berryman" lane="-404956275_0" startPos="0.00" endPos="11.27" friendlyPos="true" lines="1"/>
+    <busStop id="-7855686329" name="Washington &amp; East" lane="-398000204_0" startPos="0.00" endPos="7.59" friendlyPos="true" lines="1"/>
+    <busStop id="-7855686332" name="Washington &amp; Inglewood" lane="-384161571#1_0" startPos="7.45" endPos="22.45" friendlyPos="true" lines="1 2"/>
+    <busStop id="-7855686333" name="Washington &amp; Grand View" lane="-404956197_0" startPos="17.50" endPos="32.50" friendlyPos="true" lines="1 2"/>
+    <busStop id="-7855687897" name="Culver &amp; Sawtelle" lane="-398002964#1_0" startPos="0.00" endPos="10.96" friendlyPos="true" lines="7"/>
+    <busStop id="-7855687900" name="Culver &amp; Berryman" lane="-159606595#3_0" startPos="105.34" endPos="116.42" friendlyPos="true" lines="7"/>
+    <busStop id="-7855687902" name="Culver &amp; Slauson" lane="-159606595#6_0" startPos="27.56" endPos="42.56" friendlyPos="true" lines="7"/>
+    <busStop id="-7855687904" name="Culver &amp; Inglewood" lane="-398012303#1_0" startPos="19.52" endPos="32.95" friendlyPos="true" lines="7"/>
+    <busStop id="-7855687906" name="Inglewood &amp; Culver" lane="-398009201#1_0" startPos="0.25" endPos="15.25" friendlyPos="true" lines="2 5"/>
+    <busStop id="-7855687908" name="Culver &amp; Centinela" lane="-398012295#0_0" startPos="12.80" endPos="27.80" friendlyPos="true" lines="7"/>
+    <busStop id="-7855797066" name="Centinela &amp; Venice" lane="-398227132#0_0" startPos="24.88" endPos="39.88" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797068" name="Centinela &amp; Barbara" lane="-404954660#4_0" startPos="12.30" endPos="27.30" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797071" name="Centinela &amp; Washington Pl." lane="-404954658_0" startPos="18.60" endPos="31.46" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797072" name="Centinela &amp; Washington Blvd." lane="-404954655_0" startPos="28.95" endPos="43.95" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797074" name="Centinela &amp; Louise" lane="-398025237_0" startPos="11.55" endPos="26.55" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797075" name="Centinela &amp; Short" lane="-398025236#1_0" startPos="21.49" endPos="36.49" friendlyPos="true" lines="14"/>
+    <busStop id="-7855797078" name="Centinela &amp; Culver" lane="-398023724#0_0" startPos="28.33" endPos="43.33" friendlyPos="true" lines="14"/>
+    <busStop id="-7860262461" name="Jefferson &amp; Cota" lane="-384144966_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="4 3"/>
+    <busStop id="-7860262470" name="Jefferson &amp; Leahy" lane="-384166363_0" startPos="11.80" endPos="26.80" friendlyPos="true" lines="4"/>
+    <busStop id="-7860262472" name="Jefferson &amp; Duquesne" lane="-384148143#0_0" startPos="14.95" endPos="29.95" friendlyPos="true" lines="4"/>
+    <busStop id="-7860262474" name="Obama &amp; Kalsman" lane="-508809120_0" startPos="75.18" endPos="90.18" friendlyPos="true" lines="4 5"/>
+    <busStop id="-7862972646" name="Washington &amp; Helms" lane="-384162662#1_0" startPos="5.29" endPos="17.64" friendlyPos="true" lines="1"/>
+    <busStop id="-7867436424" name="La Cienega &amp; Obama" lane="-384151476#5_0" startPos="0.00" endPos="11.77" friendlyPos="true" lines="4"/>
+    <busStop id="-7867436428" name="La Cienega &amp; Clemson" lane="-398551378_0" startPos="38.69" endPos="53.69" friendlyPos="true" lines="4"/>
+    <busStop id="-7867436436" name="Fairfax &amp; Adams" lane="-398552703#0_0" startPos="32.58" endPos="47.58" friendlyPos="true" lines="4"/>
+    <busStop id="-7993160138" name="Braddock &amp; Madison" lane="-665212184#0_0" startPos="80.96" endPos="95.96" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160140" name="Braddock &amp; Jackson" lane="-665212184#2_0" startPos="79.50" endPos="94.50" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160142" name="Braddock &amp; Le Bourget" lane="-665212184#8_0" startPos="65.70" endPos="80.70" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160144" name="Braddock &amp; Elenda" lane="-867901251#0_0" startPos="23.22" endPos="38.22" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160145" name="Braddock &amp; Huron" lane="-867901251#2_0" startPos="173.07" endPos="188.07" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160146" name="Braddock &amp; Harter" lane="-867901251#3_0" startPos="215.86" endPos="230.86" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160147" name="Braddock &amp; Huntley" lane="-849068837#0_0" startPos="39.99" endPos="54.57" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160148" name="Braddock &amp; Berryman" lane="-639067355#3_0" startPos="16.23" endPos="31.23" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160149" name="Braddock &amp; Slauson" lane="-639067355#6_0" startPos="21.51" endPos="36.51" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160150" name="Braddock &amp; Marionwood" lane="-159764475#3_0" startPos="53.78" endPos="68.78" friendlyPos="true" lines="5"/>
+    <busStop id="-7993160151" name="Braddock &amp; Inglewood" lane="-159764475#8_0" startPos="18.88" endPos="33.88" friendlyPos="true" lines="5"/>
+    <busStop id="-7993171359" name="Higuera &amp; Washington" lane="-30656331#6_0" startPos="34.45" endPos="49.45" friendlyPos="true" lines="5"/>
+    <busStop id="-7993171362" name="Hayden &amp; Warner" lane="-867901242#1_0" startPos="41.22" endPos="54.36" friendlyPos="true" lines="5"/>
+    <busStop id="-7993443498" name="Lenawee &amp; Wrightcrest" lane="-13450282#2_0" startPos="37.86" endPos="52.86" friendlyPos="true" lines="5"/>
+    <busStop id="-7993443502" name="Holdrege &amp; Jefferson" lane="-181211548#0_0" startPos="56.66" endPos="71.66" friendlyPos="true" lines="5"/>
+    <busStop id="-8001061792" name="Washington &amp; Mildred" lane="-383946358#1_0" startPos="13.50" endPos="28.50" friendlyPos="true" lines="1"/>
+    <busStop id="-8002165713" name="Culver &amp; Westlawn" lane="-398013536#2_0" startPos="74.18" endPos="89.18" friendlyPos="true" lines="7"/>
+    <busStop id="-8002165714" name="Culver &amp; Braddock" lane="-398012300#0_0" startPos="8.23" endPos="23.23" friendlyPos="true" lines="7"/>
+    <busStop id="-8002165715" name="Culver &amp; Braddock" lane="-398013537#7_0" startPos="6.37" endPos="21.37" friendlyPos="true" lines="7"/>
+    <busStop id="-8002165716" name="Culver &amp; Marina" lane="-398013535#1_0" startPos="66.91" endPos="75.06" friendlyPos="true" lines="7"/>
+    <busStop id="-8002165722" name="Alla &amp; Panama" lane="-165880074#11_0" startPos="0.00" endPos="7.27" friendlyPos="true" lines="7"/>
+    <busStop id="-8002165724" name="Alla &amp; Bonaparte" lane="-165880074#5_0" startPos="64.79" endPos="79.79" friendlyPos="true" lines="7"/>
+    <busStop id="-8004444763" name="Mindanao &amp; Alla" lane="-403844709_0" startPos="29.15" endPos="44.15" friendlyPos="true" lines="7"/>
+    <busStop id="-8004782659" name="Overland &amp; Galvin" lane="-149009279#3_0" startPos="89.27" endPos="104.27" friendlyPos="true" lines="3"/>
+    <busStop id="-8004782661" name="Overland &amp; Kelmore" lane="-149009279#0_0" startPos="66.18" endPos="81.18" friendlyPos="true" lines="3"/>
+    <busStop id="-8004782664" name="Overland &amp; Sawtelle" lane="-400216783_0" startPos="0.00" endPos="12.30" friendlyPos="true" lines="3"/>
+    <busStop id="-8004782665" name="Playa &amp; Rudman" lane="-149009299#5_0" startPos="5.18" endPos="20.18" friendlyPos="true" lines="3"/>
+    <busStop id="-8004782667" name="Sepulveda &amp; Berryman" lane="-384144364_0" startPos="5.72" endPos="20.72" friendlyPos="true" lines="4 3 6"/>
+    <busStop id="-8004860188" name="Inglewood &amp; Braddock" lane="-159764473#0_0" startPos="18.42" endPos="33.42" friendlyPos="true" lines="2"/>
+    <busStop id="-8004860189" name="Inglewood &amp; Allin" lane="-398009815_0" startPos="13.34" endPos="28.34" friendlyPos="true" lines="2"/>
+    <busStop id="-8004860192" name="Inglewood &amp; Sanford" lane="-27958312#2_0" startPos="26.63" endPos="41.63" friendlyPos="true" lines="2"/>
+    <busStop id="-8004860194" name="Inglewood &amp; Lucile" lane="-136913615#3_0" startPos="65.33" endPos="80.33" friendlyPos="true" lines="2"/>
+    <busStop id="-8004860197" name="Inglewood &amp; Juniette" lane="-136913615#1_0" startPos="64.30" endPos="79.30" friendlyPos="true" lines="2"/>
+    <busStop id="-8004945298" name="Centinela &amp; Braddock" lane="-398023723#7_0" startPos="17.11" endPos="32.11" friendlyPos="true" lines="14"/>
+    <busStop id="-8004945301" name="Centinela &amp; Lucile" lane="-429145365#0_0" startPos="59.27" endPos="74.27" friendlyPos="true" lines="14"/>
+    <busStop id="-8007965358" name="Jefferson &amp; Mesmer" lane="-405294847_0" startPos="16.85" endPos="31.85" friendlyPos="true" lines="2"/>
+    <busStop id="-8008299992" name="Sepulveda &amp; Centinela" lane="-405294882_0" startPos="15.15" endPos="30.15" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="-8008362626" name="Slauson &amp; Bristol" lane="-398357462_0" startPos="44.70" endPos="59.70" friendlyPos="true" lines="3"/>
+    <busStop id="-8008362629" name="Slauson &amp; Buckingham" lane="-673127509_0" startPos="9.58" endPos="24.58" friendlyPos="true" lines="3"/>
+    <busStop id="-8008472682" name="Bristol &amp; Hannum" lane="-165884141#0_0" startPos="43.58" endPos="58.58" friendlyPos="true" lines="3"/>
+    <busStop id="-8008472683" name="Bristol &amp; Uplander" lane="-165884141#6_0" startPos="24.62" endPos="39.62" friendlyPos="true" lines="3"/>
+    <busStop id="-8008494085" name="Bristol &amp; Green Valley" lane="-165884141#14_0" startPos="13.70" endPos="25.25" friendlyPos="true" lines="3"/>
+    <busStop id="-8008494089" name="Hannum &amp; Uplander" lane="-384142993#0_0" startPos="26.30" endPos="41.30" friendlyPos="true" lines="3"/>
+    <busStop id="-8008494092" name="Green Valley &amp; Fox Hills" lane="-604363329#5_0" startPos="20.58" endPos="35.58" friendlyPos="true" lines="3"/>
+    <busStop id="-8008494095" name="Buckingham &amp; Hannum" lane="-456933545#1_0" startPos="34.85" endPos="49.85" friendlyPos="true" lines="3"/>
+    <busStop id="-8008494096" name="Hannum &amp; Buckingham" lane="-384142993#2_0" startPos="31.36" endPos="46.36" friendlyPos="true" lines="3"/>
+    <busStop id="1419803119" name="Motor &amp; Palms" lane="150913651#7_0" startPos="36.21" endPos="51.11" friendlyPos="true" lines="3"/>
+    <busStop id="1419803121" name="National &amp; Motor" lane="881824222#0_0" startPos="21.13" endPos="35.93" friendlyPos="true" lines="3"/>
+    <busStop id="1419803123" name="Palms &amp; Motor" lane="136914688#2_0" startPos="2.41" endPos="16.49" friendlyPos="true" lines="17"/>
+    <busStop id="1419803124" name="Overland &amp; Palms" lane="400225296_0" startPos="0.00" endPos="9.27" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="1419803129" name="National &amp; Exposition (Palms Station)" lane="607284019_0" startPos="72.80" endPos="86.02" friendlyPos="true" lines="17 5"/>
+    <busStop id="1419803135" name="Palms &amp; Jasmine" lane="398579025#0_0" startPos="0.00" endPos="8.36" friendlyPos="true" lines="17"/>
+    <busStop id="1419803136" name="Westwood &amp; National" lane="398778788#0_0" startPos="16.37" endPos="31.37" friendlyPos="true" lines="Rapid 12 8 3"/>
+    <busStop id="1419803141" name="National Place &amp; Overland" lane="398779237#1_0" startPos="16.68" endPos="31.68" friendlyPos="true" lines="Rapid 12 3"/>
+    <busStop id="1792548371" name="Motor &amp; Venice" lane="150913651#19_0" startPos="9.28" endPos="24.28" friendlyPos="true" lines="3"/>
+    <busStop id="2193439976" name="Expo/Vermont" lane="24924334#0_0" startPos="28.24" endPos="228.24" friendlyPos="true" lines="806"/>
+    <busStop id="2193439978" name="Expo/Western" lane="392024718#4_0" startPos="2203.77" endPos="2403.77" friendlyPos="true" lines="806"/>
+    <busStop id="2193439983" name="Expo/Western" lane="24924334#0_0" startPos="1638.10" endPos="1838.10" friendlyPos="true" lines="806"/>
+    <busStop id="2193446233" name="Expo/Crenshaw" lane="24924334#1_0" startPos="213.25" endPos="392.93" friendlyPos="true" lines="806">
+        <access lane="-13278485_0" pos="57.94" length="27.01" friendlyPos="1"/>
+        <access lane="-37684096#4_0" pos="68.47" length="17.47" friendlyPos="1"/>
+        <access lane="-792371775#0_0" pos="19.75" length="43.95" friendlyPos="1"/>
+        <access lane="13278485_0" pos="35.36" length="22.21" friendlyPos="1"/>
+        <access lane="37684096#4_0" pos="20.03" length="22.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2193446235" name="Farmdale" lane="24924334#3_0" startPos="394.26" endPos="519.39" friendlyPos="true" lines="806">
+        <access lane="-13373144#5_0" pos="15.81" length="22.02" friendlyPos="1"/>
+        <access lane="-13468811#2_0" pos="0.20" length="35.40" friendlyPos="1"/>
+        <access lane="-524697709_0" pos="19.35" length="19.14" friendlyPos="1"/>
+        <access lane="13373144#5_0" pos="50.03" length="17.22" friendlyPos="1"/>
+        <access lane="524697709_0" pos="63.77" length="23.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2193446255" name="Farmdale" lane="392024718#0_0" startPos="624.80" endPos="753.36" friendlyPos="true" lines="806">
+        <access lane="-457318054#0_0" pos="64.37" length="25.45" friendlyPos="1"/>
+        <access lane="-522527045_0" pos="179.76" length="17.74" friendlyPos="1"/>
+        <access lane="13468811#0_0" pos="3.58" length="40.66" friendlyPos="1"/>
+        <access lane="457318054#0_0" pos="19.10" length="30.25" friendlyPos="1"/>
+        <access lane="522522975_0" pos="36.11" length="12.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2193446260" name="Expo/Crenshaw" lane="392024718#2_0" startPos="327.63" endPos="503.06" friendlyPos="true" lines="806">
+        <access lane="-165568105#2_0" pos="36.82" length="25.12" friendlyPos="1"/>
+        <access lane="-456927939#0_0" pos="0.00" length="23.71" friendlyPos="1"/>
+        <access lane="-456927939#1_0" pos="27.83" length="20.31" friendlyPos="1"/>
+        <access lane="456927939#0_0" pos="52.30" length="19.78" friendlyPos="1"/>
+        <access lane="456927939#1_0" pos="0.00" length="15.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2193456387" name="Expo/La Brea" lane="209115129_0" startPos="1.64" endPos="155.81" friendlyPos="true" lines="806">
+        <access lane="-13373161#3_0" pos="24.42" length="14.33" friendlyPos="1"/>
+        <access lane="-392024714#0_0" pos="13.23" length="32.02" friendlyPos="1"/>
+        <access lane="13373161#3_0" pos="27.34" length="9.53" friendlyPos="1"/>
+        <access lane="392024714#0_0" pos="19.19" length="27.22" friendlyPos="1"/>
+        <access lane="392024714#1_0" pos="0.00" length="43.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2193456402" name="Culver City" lane="209115130_0" startPos="150.04" endPos="350.04" friendlyPos="true" lines="806">
+        <access lane="-838863588#1_0" pos="64.98" length="69.66" friendlyPos="1"/>
+        <access lane="394989389#1_0" pos="18.83" length="85.10" friendlyPos="1"/>
+        <access lane="394989389#2_0" pos="0.00" length="87.26" friendlyPos="1"/>
+        <access lane="812988422#0_0" pos="0.00" length="89.28" friendlyPos="1"/>
+        <access lane="838863588#1_0" pos="35.46" length="64.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2995090773" name="Expo/Crenshaw" lane="295753835_0" startPos="2293.95" endPos="2335.73" friendlyPos="true">
+        <access lane="-165568111#0_0" pos="0.00" length="21.89" friendlyPos="1"/>
+        <access lane="-165568111#2_0" pos="0.20" length="23.01" friendlyPos="1"/>
+        <access lane="-37684096#4_0" pos="0.00" length="24.92" friendlyPos="1"/>
+        <access lane="165568111#0_0" pos="0.20" length="12.66" friendlyPos="1"/>
+        <access lane="165568111#2_0" pos="0.00" length="14.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3205686693" name="Motor &amp; Regent" lane="150913651#14_0" startPos="103.95" endPos="118.95" friendlyPos="true" lines="3"/>
+    <busStop id="3254606626" name="Sepulveda &amp; Centinela" lane="405629152#2_0" startPos="12.19" endPos="22.67" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="3445774682" name="Buckingham &amp; Slauson" lane="456933545#0_0" startPos="32.20" endPos="47.20" friendlyPos="true" lines="3"/>
+    <busStop id="3534427676" name="Westwood/Rancho Park" lane="30968197#4_0" startPos="227.59" endPos="384.46" friendlyPos="true" lines="806">
+        <access lane="-867158361#0_0" pos="11.68" length="25.85" friendlyPos="1"/>
+        <access lane="-884880976_0" pos="8.88" length="21.87" friendlyPos="1"/>
+        <access lane="867158361#0_0" pos="0.00" length="28.43" friendlyPos="1"/>
+        <access lane="867158363_0" pos="52.00" length="5.89" friendlyPos="1"/>
+        <access lane="884880976_0" pos="317.85" length="24.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3881073410" name="Culver City Transit Center" lane="352174433_0" startPos="13.59" endPos="23.80" friendlyPos="true" lines="6"/>
+    <busStop id="3881073411" name="Culver City Transit Center" lane="352174433_0" startPos="30.91" endPos="23.80" friendlyPos="true" lines="4 6"/>
+    <busStop id="3881073413" name="Culver City Transit Center" lane="352174433_0" startPos="107.21" endPos="23.80" friendlyPos="true" lines="4 3"/>
+    <busStop id="3960923706" name="Motor &amp; Washington" lane="167923730#3_0" startPos="28.18" endPos="40.85" friendlyPos="true" lines="Rapid 12 3"/>
+    <busStop id="3960923735" name="Motor &amp; Tabor" lane="150913651#10_0" startPos="167.16" endPos="178.33" friendlyPos="true" lines="3"/>
+    <busStop id="3960923748" name="Motor &amp; Woodbine" lane="150913651#4_0" startPos="13.42" endPos="28.42" friendlyPos="true" lines="3"/>
+    <busStop id="3961825565" name="Palms &amp; Overland" lane="384177077#1_0" startPos="6.07" endPos="21.07" friendlyPos="true" lines="17"/>
+    <busStop id="4075193951" name="Sepulveda &amp; Washington Blvd." lane="372115666#1_0" startPos="26.99" endPos="41.99" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="4075193954" name="Washington &amp; Sepulveda" lane="398000201#1_0" startPos="8.14" endPos="23.14" friendlyPos="true" lines="1"/>
+    <busStop id="4400281315" name="Culver City" lane="72839540_0" startPos="399.07" endPos="599.07" friendlyPos="true" lines="806">
+        <access lane="-721531236#1_0" pos="111.67" length="30.62" friendlyPos="1"/>
+        <access lane="394989389#8_0" pos="93.92" length="90.41" friendlyPos="1"/>
+        <access lane="721531236#1_0" pos="38.71" length="37.34" friendlyPos="1"/>
+        <access lane="813438368#1_0" pos="0.00" length="88.66" friendlyPos="1"/>
+        <access lane="813438369_0" pos="39.36" length="90.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281322" name="Expo/La Brea" lane="51805349_0" startPos="30.97" endPos="156.56" friendlyPos="true">
+        <access lane="-384172056#0_0" pos="78.80" length="31.22" friendlyPos="1"/>
+        <access lane="-795080028_0" pos="24.70" length="52.67" friendlyPos="1"/>
+        <access lane="384172056#0_0" pos="21.36" length="26.42" friendlyPos="1"/>
+        <access lane="384172057_0" pos="0.00" length="55.76" friendlyPos="1"/>
+        <access lane="384172059#1_0" pos="31.25" length="44.18" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281323" name="Expo/Sepulveda" lane="291399484_0" startPos="0.00" endPos="117.41" friendlyPos="true" lines="806">
+        <access lane="-404988214#3_0" pos="0.00" length="50.52" friendlyPos="1"/>
+        <access lane="-606824622#3_0" pos="18.66" length="28.94" friendlyPos="1"/>
+        <access lane="404988222#0_0" pos="14.57" length="58.27" friendlyPos="1"/>
+        <access lane="606824622#3_0" pos="52.81" length="24.14" friendlyPos="1"/>
+        <access lane="788391861#5_0" pos="0.20" length="34.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281324" name="Expo/Sepulveda" lane="346996829_0" startPos="0.00" endPos="117.36" friendlyPos="true" lines="806">
+        <access lane="-606824621#1_0" pos="73.86" length="45.32" friendlyPos="1"/>
+        <access lane="404988214#3_0" pos="23.00" length="51.00" friendlyPos="1"/>
+        <access lane="606824621#1_0" pos="19.25" length="40.52" friendlyPos="1"/>
+        <access lane="788391853#1_0" pos="69.92" length="55.10" friendlyPos="1"/>
+        <access lane="788391861#0_0" pos="0.00" length="42.51" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281331" name="La Cienega/Jefferson" lane="209115133_0" startPos="0.00" endPos="196.43" friendlyPos="true" lines="806">
+        <access lane="-384280056_0" pos="33.87" length="25.96" friendlyPos="1"/>
+        <access lane="121936173#1_0" pos="14.71" length="35.15" friendlyPos="1"/>
+        <access lane="384280056_0" pos="4.40" length="31.42" friendlyPos="1"/>
+        <access lane="813331041#0_0" pos="20.93" length="7.47" friendlyPos="1"/>
+        <access lane="813331043#1_0" pos="63.31" length="34.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281332" name="La Cienega/Jefferson" lane="148818231_0" startPos="79.23" endPos="197.00" friendlyPos="true" lines="806">
+        <access lane="-26023453#0_0" pos="19.05" length="26.39" friendlyPos="1"/>
+        <access lane="-723764194#3_0" pos="20.11" length="25.32" friendlyPos="1"/>
+        <access lane="26023453#0_0" pos="16.41" length="2.41" friendlyPos="1"/>
+        <access lane="723764194#3_0" pos="11.71" length="30.12" friendlyPos="1"/>
+        <access lane="813331039#0_0" pos="18.38" length="32.82" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281333" name="Palms" lane="267159405#2_0" startPos="0.00" endPos="110.20" friendlyPos="true" lines="806">
+        <access lane="-848223401_0" pos="2.16" length="1.84" friendlyPos="1"/>
+        <access lane="392360757#1_0" pos="4.86" length="15.38" friendlyPos="1"/>
+        <access lane="392360757#2_0" pos="0.20" length="11.51" friendlyPos="1"/>
+        <access lane="392360757#3_0" pos="0.00" length="9.64" friendlyPos="1"/>
+        <access lane="848223401_0" pos="3.65" length="4.84" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281334" name="Palms" lane="346997704#0_0" startPos="0.00" endPos="197.32" friendlyPos="true" lines="806">
+        <access lane="-392360767#1_0" pos="67.34" length="41.74" friendlyPos="1"/>
+        <access lane="392360757#3_0" pos="75.50" length="24.39" friendlyPos="1"/>
+        <access lane="392360767#1_0" pos="67.98" length="36.94" friendlyPos="1"/>
+        <access lane="392387237#1_0" pos="50.75" length="50.55" friendlyPos="1"/>
+        <access lane="848223015_0" pos="0.00" length="92.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4400281335" name="Westwood/Rancho Park" lane="30968183#6_0" startPos="32.34" endPos="232.34" friendlyPos="true" lines="806">
+        <access lane="-884880976_0" pos="87.94" length="32.29" friendlyPos="1"/>
+        <access lane="13280901#2_0" pos="1.48" length="110.19" friendlyPos="1"/>
+        <access lane="159156131#1_0" pos="37.43" length="60.61" friendlyPos="1"/>
+        <access lane="867158363_0" pos="126.74" length="8.54" friendlyPos="1"/>
+        <access lane="884880976_0" pos="238.79" length="35.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5002036674" name="National &amp; Motor" lane="391441052#9_0" startPos="51.56" endPos="63.92" friendlyPos="true" lines="5"/>
+    <busStop id="6215401894" name="Expo/Crenshaw" lane="664051381#0_0" startPos="0.00" endPos="125.86" friendlyPos="true">
+        <access lane="-165568111#0_0" pos="0.00" length="16.85" friendlyPos="1"/>
+        <access lane="-165568111#2_0" pos="0.20" length="16.99" friendlyPos="1"/>
+        <access lane="165568111#0_0" pos="0.20" length="18.40" friendlyPos="1"/>
+        <access lane="165568111#2_0" pos="0.00" length="18.51" friendlyPos="1"/>
+        <access lane="456927939#0_0" pos="0.00" length="27.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6215401903" name="Leimert Park" lane="664051381#2_0" startPos="818.99" endPos="1018.99" friendlyPos="true">
+        <access lane="-398235795#1_0" pos="25.32" length="8.24" friendlyPos="1"/>
+        <access lane="383938125#1_0" pos="25.92" length="20.92" friendlyPos="1"/>
+        <access lane="398235795#1_0" pos="6.63" length="10.97" friendlyPos="1"/>
+        <access lane="742089598#1_0" pos="0.00" length="23.92" friendlyPos="1"/>
+        <access lane="742089598#2_0" pos="0.00" length="28.47" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6215401915" name="Leimert Park" lane="295753835_0" startPos="136.71" endPos="336.71" friendlyPos="true">
+        <access lane="-398235795#1_0" pos="25.32" length="16.12" friendlyPos="1"/>
+        <access lane="383938125#1_0" pos="24.96" length="28.68" friendlyPos="1"/>
+        <access lane="398235795#1_0" pos="7.56" length="3.10" friendlyPos="1"/>
+        <access lane="742089598#1_0" pos="0.00" length="31.72" friendlyPos="1"/>
+        <access lane="742089598#2_0" pos="0.00" length="35.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6273260336" name="Martin Luther King, Jr." lane="295753835_0" startPos="893.82" endPos="1093.82" friendlyPos="true">
+        <access lane="-134117951#10_0" pos="60.50" length="65.40" friendlyPos="1"/>
+        <access lane="-403614790_0" pos="73.01" length="8.45" friendlyPos="1"/>
+        <access lane="-673067952#3_0" pos="0.00" length="61.27" friendlyPos="1"/>
+        <access lane="398235788#1_0" pos="60.56" length="10.75" friendlyPos="1"/>
+        <access lane="673067952#3_0" pos="27.12" length="61.75" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6273260337" name="Martin Luther King, Jr." lane="664051381#2_0" startPos="56.56" endPos="256.56" friendlyPos="true">
+        <access lane="-134117951#10_0" pos="60.48" length="72.16" friendlyPos="1"/>
+        <access lane="-403614790_0" pos="73.04" length="15.21" friendlyPos="1"/>
+        <access lane="-673067952#3_0" pos="0.00" length="54.53" friendlyPos="1"/>
+        <access lane="398235788#1_0" pos="60.53" length="3.99" friendlyPos="1"/>
+        <access lane="673067952#3_0" pos="27.12" length="55.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6278468525" name="Stocker/Crenshaw" lane="159756851_0" startPos="21.46" endPos="36.46" friendlyPos="true" lines="102"/>
+    <busStop id="6281183293" name="Crenshaw / 23rd" lane="398218634#0_0" startPos="3.93" endPos="18.93" friendlyPos="true"/>
+    <busStop id="7814246322" name="Overland &amp; Charnock" lane="398605036#0_0" startPos="30.96" endPos="44.13" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="7814246323" name="Overland &amp; Rose" lane="398783440#2_0" startPos="12.64" endPos="27.64" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="7814287977" name="Westwood &amp; Exposition (Westwood Station)" lane="398414260_0" startPos="0.00" endPos="12.95" friendlyPos="true" lines="Rapid 12 8 3"/>
+    <busStop id="7814287981" name="Venice &amp; Overland" lane="384176374#1_0" startPos="33.88" endPos="48.88" friendlyPos="true" lines="Rapid 12"/>
+    <busStop id="7814287982" name="Washington &amp; Overland" lane="384176167#0_0" startPos="54.09" endPos="64.14" friendlyPos="true" lines="Rapid 12 1"/>
+    <busStop id="7821961926" name="Palms &amp; Glendon" lane="404964737#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="17"/>
+    <busStop id="7821961928" name="Palms &amp; Kelton" lane="398785884#0_0" startPos="3.56" endPos="18.56" friendlyPos="true" lines="17"/>
+    <busStop id="7821961930" name="Palms &amp; Sepulveda" lane="338171897#0_0" startPos="34.92" endPos="49.49" friendlyPos="true" lines="17"/>
+    <busStop id="7830899741" name="Westwood &amp; Coventry" lane="398778797#1_0" startPos="0.00" endPos="10.54" friendlyPos="true" lines="8 3"/>
+    <busStop id="7830899744" name="National &amp; Valparaiso" lane="150945326#3_0" startPos="17.97" endPos="28.56" friendlyPos="true" lines="3"/>
+    <busStop id="7830975318" name="National &amp; Kelton" lane="37689821#2_0" startPos="79.00" endPos="94.00" friendlyPos="true" lines="8"/>
+    <busStop id="7830975321" name="National &amp; Military" lane="398771138#1_0" startPos="0.00" endPos="8.62" friendlyPos="true" lines="8"/>
+    <busStop id="7830975322" name="National &amp; Sepulveda" lane="398771136#0_0" startPos="43.82" endPos="58.82" friendlyPos="true" lines="8"/>
+    <busStop id="7830975325" name="Sepulveda &amp; National" lane="398775795#1_0" startPos="34.54" endPos="49.54" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="7830975327" name="Sawtelle &amp; National" lane="181978103_0" startPos="33.35" endPos="48.35" friendlyPos="true" lines="17"/>
+    <busStop id="7830975328" name="National &amp; Sawtelle" lane="398770653#2_0" startPos="15.36" endPos="30.36" friendlyPos="true" lines="8"/>
+    <busStop id="7830975330" name="National &amp; Butler" lane="398251732#2_0" startPos="246.87" endPos="261.87" friendlyPos="true" lines="8"/>
+    <busStop id="7831489191" name="National &amp; Castle Heights" lane="393132599#4_0" startPos="28.52" endPos="43.52" friendlyPos="true" lines="17"/>
+    <busStop id="7831489193" name="National &amp; Bagley" lane="393132599#0_0" startPos="31.24" endPos="46.24" friendlyPos="true" lines="17"/>
+    <busStop id="7831489194" name="National &amp; Robertson" lane="24655523#0_0" startPos="28.25" endPos="43.25" friendlyPos="true" lines="17"/>
+    <busStop id="7831489197" name="National &amp; Venice" lane="783237790#3_0" startPos="0.00" endPos="9.95" friendlyPos="true" lines="17"/>
+    <busStop id="7831489201" name="Washington &amp; Culver City Station" lane="398543861_0" startPos="43.69" endPos="58.69" friendlyPos="true" lines="1 7"/>
+    <busStop id="7831489203" name="Washington &amp; Robertson" lane="398589935#1_0" startPos="20.29" endPos="33.27" friendlyPos="true" lines="1 7"/>
+    <busStop id="7831489206" name="Robertson &amp; Venice (Culver City Station)" lane="398588235#1_0" startPos="49.06" endPos="56.56" friendlyPos="true" lines="7"/>
+    <busStop id="7831489206@11810131" name="Robertson &amp; Venice (Culver City Station)" lane="865180372#0_0" startPos="0.00" endPos="9.66" friendlyPos="true" lines="7"/>
+    <busStop id="7833239124" name="Sawtelle &amp; Palms" lane="398754268#5_0" startPos="11.91" endPos="26.91" friendlyPos="true" lines="17"/>
+    <busStop id="7833716154" name="Sepulveda &amp; Charnock" lane="398775793_0" startPos="24.74" endPos="39.74" friendlyPos="true" lines="6"/>
+    <busStop id="7833716157" name="Sepulveda &amp; Palms" lane="398775798_0" startPos="29.75" endPos="43.04" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="7833716158" name="Sepulveda &amp; Queensland" lane="398775787_0" startPos="24.71" endPos="39.71" friendlyPos="true" lines="6"/>
+    <busStop id="7833716160" name="Sepulveda &amp; Sardis" lane="338171896#4_0" startPos="7.00" endPos="22.00" friendlyPos="true" lines="6"/>
+    <busStop id="7833716162" name="Sepulveda &amp; Richland" lane="759476634#2_0" startPos="13.97" endPos="28.97" friendlyPos="true" lines="6"/>
+    <busStop id="7833716166" name="Sepulveda &amp; Pico" lane="404988214#0_0" startPos="28.41" endPos="43.41" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="7833716168" name="Pico &amp; Sepulveda" lane="398400825_0" startPos="20.45" endPos="35.45" friendlyPos="true" lines="7 Rapid 7"/>
+    <busStop id="7833909185" name="Sawtelle &amp; Stanwood" lane="398754264#0_0" startPos="10.33" endPos="25.33" friendlyPos="true" lines="17"/>
+    <busStop id="7833909186" name="Sawtelle &amp; Ivy" lane="398253238_0" startPos="14.33" endPos="29.33" friendlyPos="true" lines="17"/>
+    <busStop id="7836385648" name="Motor &amp; Manning" lane="288116300#1_0" startPos="19.17" endPos="34.17" friendlyPos="true" lines="5"/>
+    <busStop id="7836553532" name="Motor &amp; Bannockburn" lane="288116300#2_0" startPos="89.19" endPos="104.19" friendlyPos="true" lines="5"/>
+    <busStop id="7836553534" name="Motor &amp; Cheviot" lane="288116300#5_0" startPos="30.25" endPos="45.25" friendlyPos="true" lines="5"/>
+    <busStop id="7838215463" name="Culver &amp; Main" lane="384281580#1_0" startPos="21.96" endPos="36.96" friendlyPos="true" lines="1 7 5"/>
+    <busStop id="7838215464" name="Culver &amp; Main" lane="398599444_0" startPos="3.66" endPos="18.66" friendlyPos="true" lines="1 7 5"/>
+    <busStop id="7838215465" name="Culver &amp; Lafayette" lane="384164981#1_0" startPos="92.06" endPos="107.06" friendlyPos="true" lines="1 7 5"/>
+    <busStop id="7838215466" name="Culver &amp; Duquesne" lane="159117474#1_0" startPos="24.32" endPos="39.32" friendlyPos="true" lines="7 5"/>
+    <busStop id="7838215467" name="Culver &amp; Madison" lane="398597044#1_0" startPos="17.87" endPos="32.87" friendlyPos="true" lines="7"/>
+    <busStop id="7838215469" name="Madison &amp; Culver" lane="394767352#1_0" startPos="13.39" endPos="28.39" friendlyPos="true" lines="5"/>
+    <busStop id="7838215470" name="Culver &amp; Jackson" lane="398597955_0" startPos="14.61" endPos="29.61" friendlyPos="true" lines="7"/>
+    <busStop id="7838215471" name="Culver &amp; Motor" lane="398597038_0" startPos="19.71" endPos="30.28" friendlyPos="true" lines="7"/>
+    <busStop id="7838215472" name="Culver &amp; Vinton" lane="398597960#0_0" startPos="45.28" endPos="60.28" friendlyPos="true" lines="7"/>
+    <busStop id="7838215473" name="Culver &amp; Overland" lane="398043617#0_0" startPos="31.23" endPos="46.23" friendlyPos="true" lines="7"/>
+    <busStop id="7838215474" name="Culver &amp; Overland" lane="398043618#2_0" startPos="6.46" endPos="21.46" friendlyPos="true" lines="7"/>
+    <busStop id="7838215475" name="Overland &amp; Culver" lane="404228675_0" startPos="11.22" endPos="23.83" friendlyPos="true" lines="3"/>
+    <busStop id="7838215477" name="Overland &amp; Washington" lane="384174531#0_0" startPos="27.51" endPos="42.51" friendlyPos="true" lines="3"/>
+    <busStop id="7838215479" name="Washington &amp; Motor" lane="392897624#2_0" startPos="0.69" endPos="15.69" friendlyPos="true" lines="1"/>
+    <busStop id="7838215480" name="Washington &amp; Jasmine" lane="392897624#4_0" startPos="37.85" endPos="52.85" friendlyPos="true" lines="1"/>
+    <busStop id="7838215483" name="Washington &amp; Madison" lane="398601898#2_0" startPos="1.89" endPos="11.65" friendlyPos="true" lines="1"/>
+    <busStop id="7838222186" name="Washington &amp; Hughes" lane="398601896#1_0" startPos="20.34" endPos="32.07" friendlyPos="true" lines="1"/>
+    <busStop id="7838222187" name="Washington &amp; Duquesne" lane="398601897#1_0" startPos="55.52" endPos="70.22" friendlyPos="true" lines="1"/>
+    <busStop id="7842185657" name="Washington &amp; Culver Center" lane="511823420#3_0" startPos="87.19" endPos="102.19" friendlyPos="true" lines="1"/>
+    <busStop id="7842185659" name="Washington &amp; Elenda" lane="384176165#4_0" startPos="32.58" endPos="45.58" friendlyPos="true" lines="1"/>
+    <busStop id="7842185661" name="Washington &amp; Huron" lane="404956238#0_0" startPos="28.15" endPos="43.15" friendlyPos="true" lines="1"/>
+    <busStop id="7842185662" name="Washington &amp; Harter" lane="404954708#0_0" startPos="10.93" endPos="25.93" friendlyPos="true" lines="1"/>
+    <busStop id="7842185663" name="Washington &amp; Harter" lane="498387602#0_0" startPos="26.04" endPos="41.04" friendlyPos="true" lines="1"/>
+    <busStop id="7842185664" name="Sepulveda &amp; Washington Pl." lane="397975349#0_0" startPos="32.37" endPos="46.40" friendlyPos="true" lines="6"/>
+    <busStop id="7842185666" name="Sepulveda &amp; Venice" lane="384002611#6_0" startPos="23.68" endPos="38.68" friendlyPos="true" lines="6 Rapid 6"/>
+    <busStop id="7844034159" name="Culver &amp; Elenda" lane="384187980#1_0" startPos="59.71" endPos="74.71" friendlyPos="true" lines="7"/>
+    <busStop id="7844034160" name="Culver &amp; Elenda" lane="384187983#2_0" startPos="8.33" endPos="23.33" friendlyPos="true" lines="7"/>
+    <busStop id="7844034161" name="Culver &amp; Harter" lane="47186585#1_0" startPos="178.15" endPos="190.82" friendlyPos="true" lines="7"/>
+    <busStop id="7844034163" name="Culver &amp; Sepulveda" lane="384141786#1_0" startPos="23.99" endPos="38.99" friendlyPos="true" lines="7"/>
+    <busStop id="7844034164" name="Culver &amp; Sepulveda" lane="159606598#1_0" startPos="40.86" endPos="51.77" friendlyPos="true" lines="7"/>
+    <busStop id="7844034165" name="Sepulveda &amp; Culver" lane="397979312#1_0" startPos="0.00" endPos="8.62" friendlyPos="true" lines="6"/>
+    <busStop id="7844223315" name="Overland &amp; Braddock" lane="150911625#12_0" startPos="17.32" endPos="32.32" friendlyPos="true" lines="3"/>
+    <busStop id="7844223316" name="Braddock &amp; Overland" lane="665212184#13_0" startPos="0.00" endPos="12.38" friendlyPos="true" lines="5"/>
+    <busStop id="7844223319" name="Overland &amp; Farragut" lane="150911625#7_0" startPos="73.69" endPos="87.98" friendlyPos="true" lines="3"/>
+    <busStop id="7844223321" name="Overland &amp; Virginia" lane="384145899#3_0" startPos="21.29" endPos="36.29" friendlyPos="true" lines="3"/>
+    <busStop id="7844223322" name="Overland &amp; Jefferson" lane="384145901#2_0" startPos="15.99" endPos="30.99" friendlyPos="true" lines="3"/>
+    <busStop id="7844223323" name="Overland &amp; Jefferson" lane="398176568#1_0" startPos="17.89" endPos="32.89" friendlyPos="true" lines="4 3"/>
+    <busStop id="7844427517" name="Sepulveda &amp; Braddock" lane="400024052_0" startPos="22.13" endPos="37.13" friendlyPos="true" lines="6"/>
+    <busStop id="7844427521" name="Sepulveda &amp; Lucerne" lane="149003093#3_0" startPos="30.59" endPos="45.59" friendlyPos="true" lines="6"/>
+    <busStop id="7844427523" lane="185735929#3_0" startPos="0.00" endPos="14.25" friendlyPos="true" lines="6"/>
+    <busStop id="7844427524" name="Sepulveda &amp; Machado" lane="405301784#1_0" startPos="0.00" endPos="12.09" friendlyPos="true" lines="6"/>
+    <busStop id="7844427526" name="Sepulveda &amp; Sawtelle" lane="398030561_0" startPos="35.13" endPos="50.13" friendlyPos="true" lines="4 3 6 Rapid 6"/>
+    <busStop id="7844566339" name="Manning &amp; National" lane="607788597#3_0" startPos="30.24" endPos="39.64" friendlyPos="true" lines="5"/>
+    <busStop id="7844566339@11773989" name="Manning &amp; National" lane="607284020#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="5"/>
+    <busStop id="7855614466" name="Venice &amp; Centinela" lane="398233615#2_0" startPos="36.68" endPos="51.68" friendlyPos="true" lines="2 5"/>
+    <busStop id="7855686326" name="Washington &amp; Corinth" lane="404956229_0" startPos="9.37" endPos="16.87" friendlyPos="true" lines="1"/>
+    <busStop id="7855686327" name="Washington &amp; Berryman" lane="404956265_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="1"/>
+    <busStop id="7855686330" name="Washington &amp; Kensington" lane="384161573#1_0" startPos="14.27" endPos="29.27" friendlyPos="true" lines="1"/>
+    <busStop id="7855686331" name="Washington &amp; Inglewood" lane="384161571#2_0" startPos="24.85" endPos="39.85" friendlyPos="true" lines="1 2 5"/>
+    <busStop id="7855686334" name="Washington &amp; Grand View" lane="404956197_0" startPos="34.73" endPos="49.73" friendlyPos="true" lines="1 2 5"/>
+    <busStop id="7855686335" name="Washington &amp; Centinela" lane="384161992_0" startPos="42.10" endPos="57.10" friendlyPos="true" lines="1 2"/>
+    <busStop id="7855686336" name="Washington &amp; Centinela" lane="404956296#0_0" startPos="39.09" endPos="47.85" friendlyPos="true" lines="1 2 5"/>
+    <busStop id="7855687898" name="Culver &amp; Sawtelle" lane="398002964#1_0" startPos="22.65" endPos="35.63" friendlyPos="true" lines="7"/>
+    <busStop id="7855687899" name="Culver &amp; Berryman" lane="159606595#0_0" startPos="79.89" endPos="92.19" friendlyPos="true" lines="7"/>
+    <busStop id="7855687901" name="Culver &amp; Slauson" lane="159606595#4_0" startPos="79.51" endPos="92.95" friendlyPos="true" lines="7"/>
+    <busStop id="7855687903" name="Culver &amp; Inglewood" lane="400213291#0_0" startPos="29.86" endPos="44.86" friendlyPos="true" lines="7"/>
+    <busStop id="7855687905" name="Inglewood &amp; Culver" lane="159764473#6_0" startPos="28.39" endPos="38.43" friendlyPos="true" lines="2"/>
+    <busStop id="7855687907" name="Culver &amp; Centinela" lane="398012295#0_0" startPos="55.08" endPos="70.08" friendlyPos="true" lines="7"/>
+    <busStop id="7855797067" name="Centinela &amp; Venice" lane="398227132#0_0" startPos="29.21" endPos="44.21" friendlyPos="true" lines="14"/>
+    <busStop id="7855797069" name="Centinela &amp; Barbara" lane="404954660#4_0" startPos="11.58" endPos="26.58" friendlyPos="true" lines="14 2 5"/>
+    <busStop id="7855797070" name="Centinela &amp; Washington Pl." lane="404954659#1_0" startPos="0.00" endPos="9.91" friendlyPos="true" lines="14 2 5"/>
+    <busStop id="7855797073" name="Centinela &amp; Washington Blvd." lane="404954655_0" startPos="11.79" endPos="26.79" friendlyPos="true" lines="14"/>
+    <busStop id="7855797076" name="Centinela &amp; Short" lane="398025236#1_0" startPos="55.65" endPos="70.65" friendlyPos="true" lines="14"/>
+    <busStop id="7855797077" name="Centinela &amp; Culver" lane="398023724#0_0" startPos="40.90" endPos="53.24" friendlyPos="true" lines="14"/>
+    <busStop id="7860262460" name="Jefferson &amp; Cota" lane="384167195#0_0" startPos="26.48" endPos="41.48" friendlyPos="true" lines="4 3"/>
+    <busStop id="7860262462" name="Jefferson &amp; Overland" lane="384146140_0" startPos="38.40" endPos="53.40" friendlyPos="true" lines="4"/>
+    <busStop id="7860262463" name="Jefferson &amp; Overland" lane="384145926#1_0" startPos="21.79" endPos="36.79" friendlyPos="true" lines="4 3"/>
+    <busStop id="7860262464" name="Jefferson &amp; Indian Wood" lane="384145810#0_0" startPos="21.74" endPos="36.74" friendlyPos="true" lines="4"/>
+    <busStop id="7860262465" name="Jefferson &amp; Indian Wood" lane="398060486_0" startPos="15.56" endPos="30.56" friendlyPos="true" lines="4"/>
+    <busStop id="7860262466" name="Jefferson &amp; Raintree" lane="398056081#1_0" startPos="12.65" endPos="27.65" friendlyPos="true" lines="4"/>
+    <busStop id="7860262467" name="Jefferson &amp; Raintree" lane="384145809#0_0" startPos="46.84" endPos="61.84" friendlyPos="true" lines="4"/>
+    <busStop id="7860262469" name="Jefferson &amp; College" lane="384166363_0" startPos="32.65" endPos="47.65" friendlyPos="true" lines="4"/>
+    <busStop id="7860262471" name="Jefferson &amp; Duquesne" lane="398560119_0" startPos="33.07" endPos="48.07" friendlyPos="true" lines="4"/>
+    <busStop id="7860262473" name="Jefferson &amp; Holdrege" lane="398559367_0" startPos="8.47" endPos="23.47" friendlyPos="true" lines="4"/>
+    <busStop id="7860262475" name="Obama &amp; Kalsman" lane="398560879#2_0" startPos="12.08" endPos="27.08" friendlyPos="true" lines="4"/>
+    <busStop id="7862972645" name="Washington &amp; Helms" lane="384152630#0_0" startPos="0.53" endPos="12.28" friendlyPos="true" lines="1"/>
+    <busStop id="7862972647" name="Washington &amp; Cattaraugus" lane="150945319#4_0" startPos="13.10" endPos="28.10" friendlyPos="true" lines="1"/>
+    <busStop id="7862972648" name="Washington &amp; Cattaraugus" lane="331162062#6_0" startPos="13.36" endPos="28.36" friendlyPos="true" lines="1"/>
+    <busStop id="7862972651" name="Washington &amp; La Cienega Ave." lane="384152081_0" startPos="23.72" endPos="38.72" friendlyPos="true" lines="1"/>
+    <busStop id="7862972652" name="Washington &amp; Roberts" lane="384152080_0" startPos="32.87" endPos="47.87" friendlyPos="true" lines="1"/>
+    <busStop id="7862972653" name="Washington &amp; La Cienega Blvd." lane="159608218#2_0" startPos="16.01" endPos="31.01" friendlyPos="true" lines="1"/>
+    <busStop id="7862972654" name="Washington &amp; La Cienega Blvd." lane="398545993#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="1"/>
+    <busStop id="7867436427" name="La Cienega &amp; Clemson" lane="37685945#3_0" startPos="1.50" endPos="15.74" friendlyPos="true" lines="4"/>
+    <busStop id="7867436429" name="La Cienega &amp; Jefferson (La Cienega/Jefferson Station)" lane="398551386_0" startPos="30.57" endPos="41.15" friendlyPos="true" lines="4"/>
+    <busStop id="7867436430" name="La Cienega &amp; Jefferson (La Cienega/Jefferson Station)" lane="384280475_0" startPos="19.63" endPos="34.63" friendlyPos="true" lines="4"/>
+    <busStop id="7867436434" name="Fairfax &amp; Adams" lane="398552703#0_0" startPos="39.49" endPos="54.49" friendlyPos="true" lines="4"/>
+    <busStop id="7867436437" name="Washington &amp; Comey" lane="398546908#1_0" startPos="0.00" endPos="14.25" friendlyPos="true" lines="1"/>
+    <busStop id="7867436440" name="Electric &amp; Fairfax" lane="13367373#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="1 4"/>
+    <busStop id="7867436440@11798120" name="Electric &amp; Fairfax" lane="403847007#1_0" startPos="0.80" endPos="15.80" friendlyPos="true" lines="1 4"/>
+    <busStop id="7867436441" name="Washington &amp; Fairfax" lane="398732133_0" startPos="0.00" endPos="9.56" friendlyPos="true" lines="1"/>
+    <busStop id="7993160137" name="Madison &amp; Braddock" lane="394767352#6_0" startPos="82.99" endPos="97.99" friendlyPos="true" lines="5"/>
+    <busStop id="7993160139" name="Braddock &amp; Jackson" lane="665212184#1_0" startPos="76.54" endPos="91.54" friendlyPos="true" lines="5"/>
+    <busStop id="7993160141" name="Braddock &amp; Le Bourget" lane="665212184#6_0" startPos="61.64" endPos="76.64" friendlyPos="true" lines="5"/>
+    <busStop id="7993160143" name="Braddock &amp; Elenda" lane="665212184#17_0" startPos="23.99" endPos="38.99" friendlyPos="true" lines="5"/>
+    <busStop id="7993171358" name="Higuera &amp; Washington" lane="30656331#6_0" startPos="29.76" endPos="44.76" friendlyPos="true" lines="5"/>
+    <busStop id="7993171360" name="Higuera &amp; Helms" lane="783885344_0" startPos="11.87" endPos="26.87" friendlyPos="true" lines="5"/>
+    <busStop id="7993171361" name="Higuera &amp; Helms" lane="783885345_0" startPos="69.34" endPos="84.34" friendlyPos="true" lines="5"/>
+    <busStop id="7993171363" name="Higuera &amp; Eastham" lane="182052718_0" startPos="47.11" endPos="62.11" friendlyPos="true" lines="5"/>
+    <busStop id="7993443499" name="Stoneview &amp; Wrightcrest" lane="165782003#0_0" startPos="26.57" endPos="41.57" friendlyPos="true" lines="5"/>
+    <busStop id="7993443500" name="La Cienega &amp; Obama" lane="709501349_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="5">
+        <access lane="-113415440_0" pos="1.28" length="29.86" friendlyPos="1"/>
+        <access lane="-306072271#1_0" pos="0.00" length="47.15" friendlyPos="1"/>
+        <access lane="113414379_0" pos="65.26" length="48.06" friendlyPos="1"/>
+        <access lane="113415440_0" pos="89.11" length="25.06" friendlyPos="1"/>
+        <access lane="726129064_0" pos="0.00" length="49.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7993443500@11846250" name="La Cienega &amp; Obama" lane="37685934_0" startPos="10.73" endPos="20.24" friendlyPos="true" lines="5">
+        <access lane="-113415440_0" pos="1.28" length="29.86" friendlyPos="1"/>
+        <access lane="-306072271#1_0" pos="0.00" length="47.15" friendlyPos="1"/>
+        <access lane="113414379_0" pos="65.26" length="48.06" friendlyPos="1"/>
+        <access lane="113415440_0" pos="89.11" length="25.06" friendlyPos="1"/>
+        <access lane="726129064_0" pos="0.00" length="49.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="8001061791" name="Washington Blvd. &amp; Washington Pl." lane="398209672#2_0" startPos="30.94" endPos="38.44" friendlyPos="true" lines="1 2"/>
+    <busStop id="8002165712" name="Culver &amp; Westlawn" lane="398013536#2_0" startPos="113.16" endPos="128.16" friendlyPos="true" lines="7"/>
+    <busStop id="8002165717" name="Culver &amp; Marina" lane="398013535#1_0" startPos="10.44" endPos="25.44" friendlyPos="true" lines="7"/>
+    <busStop id="8002165723" name="Alla &amp; Panama" lane="165880074#10_0" startPos="1.76" endPos="14.15" friendlyPos="true" lines="7"/>
+    <busStop id="8002165725" name="Alla &amp; Glencoe" lane="165880074#5_0" startPos="31.35" endPos="46.35" friendlyPos="true" lines="7"/>
+    <busStop id="8004444764" name="Mindanao &amp; Alla" lane="403844709_0" startPos="35.77" endPos="50.77" friendlyPos="true" lines="7"/>
+    <busStop id="8004782657" name="Overland &amp; Freshman" lane="384173985_0" startPos="0.84" endPos="15.84" friendlyPos="true" lines="3"/>
+    <busStop id="8004782658" name="West LA College" lane="165783269#1_0" startPos="165.29" endPos="178.42" friendlyPos="true" lines="4 3"/>
+    <busStop id="8004782660" name="Overland &amp; Flaxton" lane="149009279#1_0" startPos="53.58" endPos="68.58" friendlyPos="true" lines="3"/>
+    <busStop id="8004782662" name="Overland &amp; Kelmore" lane="398034626#3_0" startPos="51.32" endPos="66.32" friendlyPos="true" lines="3"/>
+    <busStop id="8004782663" name="Overland &amp; Sawtelle" lane="398034624_0" startPos="22.48" endPos="29.98" friendlyPos="true" lines="3"/>
+    <busStop id="8004782666" name="Playa &amp; Rudman" lane="149009299#5_0" startPos="19.17" endPos="34.17" friendlyPos="true" lines="3"/>
+    <busStop id="8004782668" name="Sepulveda &amp; Bush" lane="405301788_0" startPos="10.48" endPos="25.48" friendlyPos="true" lines="4 3 6"/>
+    <busStop id="8004782669" name="Sepulveda &amp; Slauson" lane="422324738_0" startPos="0.00" endPos="7.81" friendlyPos="true" lines="Rapid 6"/>
+    <busStop id="8004782670" name="Sepulveda &amp; Playa" lane="405294863_0" startPos="0.00" endPos="10.01" friendlyPos="true" lines="4 3 6 Rapid 6"/>
+    <busStop id="8004782671" name="Hannum &amp; Playa" lane="384171788#0_0" startPos="105.36" endPos="120.36" friendlyPos="true" lines="3"/>
+    <busStop id="8004782672" name="Hannum &amp; Playa" lane="384171789#1_0" startPos="34.77" endPos="49.77" friendlyPos="true" lines="3"/>
+    <busStop id="8004860187" name="Inglewood &amp; Braddock" lane="159764473#0_0" startPos="13.08" endPos="28.08" friendlyPos="true" lines="2"/>
+    <busStop id="8004860190" name="Inglewood &amp; Allin" lane="829782863#1_0" startPos="81.26" endPos="96.26" friendlyPos="true" lines="2"/>
+    <busStop id="8004860191" name="Inglewood &amp; Bray" lane="27958312#1_0" startPos="54.88" endPos="69.88" friendlyPos="true" lines="2"/>
+    <busStop id="8004860193" name="Inglewood &amp; Aneta" lane="136913615#3_0" startPos="64.22" endPos="79.22" friendlyPos="true" lines="2"/>
+    <busStop id="8004860196" name="Inglewood &amp; Juniette" lane="136913615#0_0" startPos="36.38" endPos="51.38" friendlyPos="true" lines="2"/>
+    <busStop id="8004945297" name="Centinela &amp; Braddock" lane="398023723#6_0" startPos="31.27" endPos="46.27" friendlyPos="true" lines="14"/>
+    <busStop id="8004945299" name="Centinela &amp; Marina Fwy." lane="398023726_0" startPos="57.16" endPos="72.16" friendlyPos="true" lines="14"/>
+    <busStop id="8004945300" name="Centinela &amp; Marina Fwy." lane="746826515#1_0" startPos="19.99" endPos="34.99" friendlyPos="true" lines="14"/>
+    <busStop id="8004945302" name="Centinela &amp; Lucile" lane="429145365#0_0" startPos="13.67" endPos="28.67" friendlyPos="true" lines="14"/>
+    <busStop id="8004945303" name="Centinela &amp; Juniette" lane="405294834_0" startPos="0.00" endPos="10.93" friendlyPos="true" lines="14"/>
+    <busStop id="8004945304" name="Campus Center &amp; Jefferson" lane="227755303_0" startPos="34.05" endPos="49.05" friendlyPos="true" lines="14 4"/>
+    <busStop id="8007965350" name="Jefferson &amp; Westlawn" lane="397474472#1_0" startPos="23.51" endPos="38.51" friendlyPos="true" lines="4"/>
+    <busStop id="8007965351" name="Jefferson &amp; Westlawn" lane="405621647#0_0" startPos="48.27" endPos="62.88" friendlyPos="true" lines="4"/>
+    <busStop id="8007965354" name="Jefferson &amp; Centinela" lane="319505916#0_0" startPos="20.99" endPos="35.99" friendlyPos="true" lines="4"/>
+    <busStop id="8007965357" name="Jefferson &amp; Margaret" lane="185399266#0_0" startPos="206.17" endPos="221.17" friendlyPos="true" lines="2"/>
+    <busStop id="8007965359" name="Jefferson &amp; Mesmer" lane="405294847_0" startPos="39.82" endPos="48.10" friendlyPos="true" lines="2"/>
+    <busStop id="8007965360" name="Mesmer &amp; Teale" lane="165880071#0_0" startPos="72.32" endPos="87.32" friendlyPos="true" lines="4"/>
+    <busStop id="8008082609" name="Campus Center &amp; Waterfront" lane="405294833#1_0" startPos="9.68" endPos="24.68" friendlyPos="true" lines="14 4"/>
+    <busStop id="8008082610" name="Campus Center &amp; Millennium" lane="608790985_0" startPos="25.45" endPos="40.45" friendlyPos="true" lines="14 4"/>
+    <busStop id="8008082611" name="Mesmer &amp; Centinela" lane="866541881#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="3"/>
+    <busStop id="8008082611@11827101" name="Mesmer &amp; Centinela" lane="487311089#2_0" startPos="24.47" endPos="32.26" friendlyPos="true" lines="3"/>
+    <busStop id="8008362625" name="Slauson &amp; Sepulveda" lane="384143514_0" startPos="3.20" endPos="18.20" friendlyPos="true" lines="2 4"/>
+    <busStop id="8008362627" name="Slauson &amp; Bristol" lane="384142193_0" startPos="50.17" endPos="65.17" friendlyPos="true" lines="3"/>
+    <busStop id="8008362628" lane="719686195_0" startPos="34.64" endPos="49.64" friendlyPos="true" lines="3"/>
+    <busStop id="8008472681" name="Bristol &amp; Hannum" lane="165884141#0_0" startPos="39.52" endPos="54.52" friendlyPos="true" lines="3"/>
+    <busStop id="8008472684" name="Bristol &amp; Uplander" lane="165884141#7_0" startPos="22.94" endPos="37.94" friendlyPos="true" lines="3"/>
+    <busStop id="8008494086" name="Bristol &amp; Green Valley" lane="165884141#16_0" startPos="23.85" endPos="38.85" friendlyPos="true" lines="3"/>
+    <busStop id="8008494088" name="Bristol &amp; Centinela" lane="604363325#6_0" startPos="37.90" endPos="45.40" friendlyPos="true" lines="2"/>
+    <busStop id="8008494088@11806286" name="Bristol &amp; Centinela" lane="864841608#0_0" startPos="0.00" endPos="9.41" friendlyPos="true" lines="2"/>
+    <busStop id="8008494090" name="Hannum &amp; Uplander" lane="384142993#0_0" startPos="167.71" endPos="182.71" friendlyPos="true" lines="3"/>
+    <busStop id="8008494091" name="Green Valley &amp; Fox Hills" lane="604363329#5_0" startPos="30.55" endPos="45.55" friendlyPos="true" lines="3"/>
+    <busStop id="8048337185" name="Slauson &amp; Sepulveda" lane="384143512_0" startPos="28.13" endPos="41.81" friendlyPos="true" lines="2 4"/>
+</additional>
