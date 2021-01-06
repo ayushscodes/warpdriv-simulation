@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2020-12-20 13:40:24.428410 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
-  options: 
+<!-- generated on 2020-12-20 17:29:29.449498 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
+  options: -n osm.net.xml -e 10800 -p 600 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>ptstops osm_stops.add.xml <doubleminus>ptlines osm_ptlines.xml -o osm_pt.rou.xml <doubleminus>ignore-errors <doubleminus>vtype-prefix pt_ <doubleminus>stopinfos-file stopinfos.xml <doubleminus>routes-file vehroutes.xml <doubleminus>trips-file trips.trips.xml <doubleminus>min-stops 0 <doubleminus>extend-to-fringe <doubleminus>verbose
 -->
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="pt_bus" vClass="bus"/>
@@ -705,187 +705,187 @@
         <stop busStop="8008494091" duration="30.00" until="3003.0"/> <!-- Green Valley & Fox Hills -->
         <stop busStop="8008082611@11827101" duration="30.00" until="3176.0"/> <!-- Mesmer & Centinela -->
     </route>
-    <flow id="pt_bus_7:0" type="pt_bus" route="pt_bus_7:0" begin="136.0" end="3736.0" period="600" line="7:0" >
+    <flow id="pt_bus_7:0" type="pt_bus" route="pt_bus_7:0" begin="136.0" end="10936.0" period="600" line="7:0" >
         <param key="name" value="Big Blue Bus 7 Westbound: Wilshire/Western Station =&gt; Beverlywood =&gt; Downtown Santa Monica"/>
         <param key="completeness" value="0.02"/>
     </flow>
-    <flow id="pt_bus_5:0" type="pt_bus" route="pt_bus_5:0" begin="58.0" end="3658.0" period="600" line="5:0" >
+    <flow id="pt_bus_5:0" type="pt_bus" route="pt_bus_5:0" begin="58.0" end="10858.0" period="600" line="5:0" >
         <param key="name" value="Big Blue Bus 5 Eastbound: Downtown Santa Monica =&gt; Palms"/>
         <param key="completeness" value="0.07"/>
     </flow>
-    <flow id="pt_bus_7:1" type="pt_bus" route="pt_bus_7:1" begin="142.0" end="3742.0" period="600" line="7:1" >
+    <flow id="pt_bus_7:1" type="pt_bus" route="pt_bus_7:1" begin="142.0" end="10942.0" period="600" line="7:1" >
         <param key="name" value="Big Blue Bus 7 Westbound: Wilshire/Western Station =&gt; Downtown Santa Monica"/>
         <param key="completeness" value="0.02"/>
     </flow>
-    <flow id="pt_bus_Rapid_7:0" type="pt_bus" route="pt_bus_Rapid_7:0" begin="165.0" end="3765.0" period="600" line="Rapid_7:0" >
+    <flow id="pt_bus_Rapid_7:0" type="pt_bus" route="pt_bus_Rapid_7:0" begin="165.0" end="10965.0" period="600" line="Rapid_7:0" >
         <param key="name" value="Big Blue Bus Rapid 7 Westbound: Wilshire/Western Station =&gt; Downtown Santa Monica"/>
         <param key="completeness" value="0.05"/>
     </flow>
-    <flow id="pt_bus_5:1" type="pt_bus" route="pt_bus_5:1" begin="93.0" end="3693.0" period="600" line="5:1" >
+    <flow id="pt_bus_5:1" type="pt_bus" route="pt_bus_5:1" begin="93.0" end="10893.0" period="600" line="5:1" >
         <param key="name" value="Big Blue Bus 5 Westbound: Palms =&gt; Downtown Santa Monica"/>
         <param key="completeness" value="0.14"/>
     </flow>
-    <flow id="pt_bus_210:0" type="pt_bus" route="pt_bus_210:0" begin="517.0" end="4117.0" period="600" line="210:0" >
+    <flow id="pt_bus_210:0" type="pt_bus" route="pt_bus_210:0" begin="517.0" end="11317.0" period="600" line="210:0" >
         <param key="name" value="Metro 210"/>
         <param key="completeness" value="0.07"/>
     </flow>
-    <flow id="pt_bus_102:0" type="pt_bus" route="pt_bus_102:0" begin="508.0" end="4108.0" period="600" line="102:0" >
+    <flow id="pt_bus_102:0" type="pt_bus" route="pt_bus_102:0" begin="508.0" end="11308.0" period="600" line="102:0" >
         <param key="name" value="Metro 102"/>
         <param key="completeness" value="0.20"/>
     </flow>
-    <flow id="pt_bus_Rapid_12:1" type="pt_bus" route="pt_bus_Rapid_12:1" begin="15.0" end="3615.0" period="600" line="Rapid_12:1" >
+    <flow id="pt_bus_Rapid_12:1" type="pt_bus" route="pt_bus_Rapid_12:1" begin="15.0" end="10815.0" period="600" line="Rapid_12:1" >
         <param key="name" value="Big Blue Bus Rapid 12 Northbound: Palms =&gt; UCLA"/>
         <param key="completeness" value="0.50"/>
     </flow>
-    <flow id="pt_bus_8:0" type="pt_bus" route="pt_bus_8:0" begin="27.0" end="3627.0" period="600" line="8:0" >
+    <flow id="pt_bus_8:0" type="pt_bus" route="pt_bus_8:0" begin="27.0" end="10827.0" period="600" line="8:0" >
         <param key="name" value="Big Blue Bus 8 Westbound: UCLA =&gt; Downtown Santa Monica (evenings, weekends)"/>
         <param key="completeness" value="0.14"/>
     </flow>
-    <flow id="pt_bus_8:1" type="pt_bus" route="pt_bus_8:1" begin="47.0" end="3647.0" period="600" line="8:1" >
+    <flow id="pt_bus_8:1" type="pt_bus" route="pt_bus_8:1" begin="47.0" end="10847.0" period="600" line="8:1" >
         <param key="name" value="Big Blue Bus 8 Westbound: UCLA =&gt; Downtown Santa Monica (weekdays)"/>
         <param key="completeness" value="0.14"/>
     </flow>
-    <flow id="pt_bus_8:2" type="pt_bus" route="pt_bus_8:2" begin="52.0" end="3652.0" period="600" line="8:2" >
+    <flow id="pt_bus_8:2" type="pt_bus" route="pt_bus_8:2" begin="52.0" end="10852.0" period="600" line="8:2" >
         <param key="name" value="Big Blue Bus 8 Eastbound: Downtown Santa Monica =&gt; UCLA (evenings, weekends)"/>
         <param key="completeness" value="0.17"/>
     </flow>
-    <flow id="pt_bus_8:3" type="pt_bus" route="pt_bus_8:3" begin="57.0" end="3657.0" period="600" line="8:3" >
+    <flow id="pt_bus_8:3" type="pt_bus" route="pt_bus_8:3" begin="57.0" end="10857.0" period="600" line="8:3" >
         <param key="name" value="Big Blue Bus 8 Eastbound: Downtown Santa Monica =&gt; UCLA (weekdays)"/>
         <param key="completeness" value="0.16"/>
     </flow>
-    <flow id="pt_bus_Rapid_12:0" type="pt_bus" route="pt_bus_Rapid_12:0" begin="3.0" end="3603.0" period="600" line="Rapid_12:0" >
+    <flow id="pt_bus_Rapid_12:0" type="pt_bus" route="pt_bus_Rapid_12:0" begin="3.0" end="10803.0" period="600" line="Rapid_12:0" >
         <param key="name" value="Big Blue Bus Rapid 12 Southbound: UCLA =&gt; Palms"/>
         <param key="completeness" value="0.60"/>
     </flow>
-    <flow id="pt_bus_14:0" type="pt_bus" route="pt_bus_14:0" begin="119.0" end="3719.0" period="600" line="14:0" >
+    <flow id="pt_bus_14:0" type="pt_bus" route="pt_bus_14:0" begin="119.0" end="10919.0" period="600" line="14:0" >
         <param key="name" value="Big Blue Bus 14 Southbound: Paul Revere Middle School =&gt; Playa Vista"/>
         <param key="completeness" value="0.29"/>
     </flow>
-    <flow id="pt_bus_740:0" type="pt_bus" route="pt_bus_740:0" begin="535.0" end="4135.0" period="600" line="740:0" >
+    <flow id="pt_bus_740:0" type="pt_bus" route="pt_bus_740:0" begin="535.0" end="11335.0" period="600" line="740:0" >
         <param key="name" value="Metro 740"/>
         <param key="completeness" value="0.33"/>
     </flow>
-    <flow id="pt_bus_105:0" type="pt_bus" route="pt_bus_105:0" begin="497.0" end="4097.0" period="600" line="105:0" >
+    <flow id="pt_bus_105:0" type="pt_bus" route="pt_bus_105:0" begin="497.0" end="11297.0" period="600" line="105:0" >
         <param key="name" value="Metro 105"/>
         <param key="completeness" value="1.00"/>
     </flow>
-    <flow id="pt_bus_710:0" type="pt_bus" route="pt_bus_710:0" begin="574.0" end="4174.0" period="600" line="710:0" >
+    <flow id="pt_bus_710:0" type="pt_bus" route="pt_bus_710:0" begin="574.0" end="11374.0" period="600" line="710:0" >
         <param key="name" value="Metro 710"/>
         <param key="completeness" value="0.14"/>
     </flow>
-    <flow id="pt_bus_14:1" type="pt_bus" route="pt_bus_14:1" begin="131.0" end="3731.0" period="600" line="14:1" >
+    <flow id="pt_bus_14:1" type="pt_bus" route="pt_bus_14:1" begin="131.0" end="10931.0" period="600" line="14:1" >
         <param key="name" value="Big Blue Bus 14 Southbound: Brentwood =&gt; Playa Vista"/>
         <param key="completeness" value="0.35"/>
     </flow>
-    <flow id="pt_bus_40:0" type="pt_bus" route="pt_bus_40:0" begin="485.0" end="4085.0" period="600" line="40:0" >
+    <flow id="pt_bus_40:0" type="pt_bus" route="pt_bus_40:0" begin="485.0" end="11285.0" period="600" line="40:0" >
         <param key="name" value="Metro 40"/>
         <param key="completeness" value="0.27"/>
     </flow>
-    <flow id="pt_bus_14:2" type="pt_bus" route="pt_bus_14:2" begin="132.0" end="3732.0" period="600" line="14:2" >
+    <flow id="pt_bus_14:2" type="pt_bus" route="pt_bus_14:2" begin="132.0" end="10932.0" period="600" line="14:2" >
         <param key="name" value="Big Blue Bus 14 Northbound: Playa Vista =&gt; Paul Revere Middle School"/>
         <param key="completeness" value="0.31"/>
     </flow>
-    <flow id="pt_bus_14:3" type="pt_bus" route="pt_bus_14:3" begin="137.0" end="3737.0" period="600" line="14:3" >
+    <flow id="pt_bus_14:3" type="pt_bus" route="pt_bus_14:3" begin="137.0" end="10937.0" period="600" line="14:3" >
         <param key="name" value="Big Blue Bus 14 Northbound: Playa Vista =&gt; Brentwood"/>
         <param key="completeness" value="0.36"/>
     </flow>
-    <flow id="pt_bus_Leimert/Slauson:0" type="pt_bus" route="pt_bus_Leimert/Slauson:0" begin="583.0" end="4183.0" period="600" line="Leimert/Slauson:0" >
+    <flow id="pt_bus_Leimert/Slauson:0" type="pt_bus" route="pt_bus_Leimert/Slauson:0" begin="583.0" end="11383.0" period="600" line="Leimert/Slauson:0" >
         <param key="name" value="DASH Leimert/Slauson (575/605)"/>
         <param key="completeness" value="0.43"/>
     </flow>
-    <flow id="pt_light_rail_806:1" type="pt_light_rail" route="pt_light_rail_806:1" begin="484.0" end="4084.0" period="600" line="806:1" >
+    <flow id="pt_light_rail_806:1" type="pt_light_rail" route="pt_light_rail_806:1" begin="484.0" end="11284.0" period="600" line="806:1" >
         <param key="name" value="E Line (Expo): Downtown Santa Monica → 7th Street / Metro Center"/>
         <param key="completeness" value="0.47"/>
     </flow>
-    <flow id="pt_light_rail_806:0" type="pt_light_rail" route="pt_light_rail_806:0" begin="483.0" end="4083.0" period="600" line="806:0" >
+    <flow id="pt_light_rail_806:0" type="pt_light_rail" route="pt_light_rail_806:0" begin="483.0" end="11283.0" period="600" line="806:0" >
         <param key="name" value="E Line (Expo): 7th Street / Metro Center → Downtown Santa Monica"/>
         <param key="completeness" value="0.53"/>
     </flow>
-    <flow id="pt_bus_2:1" type="pt_bus" route="pt_bus_2:1" begin="227.0" end="3827.0" period="600" line="2:1" >
+    <flow id="pt_bus_2:1" type="pt_bus" route="pt_bus_2:1" begin="227.0" end="11027.0" period="600" line="2:1" >
         <param key="name" value="Culver CityBus 2 Northbound: Fox Hills =&gt; Venice High School"/>
         <param key="completeness" value="0.61"/>
     </flow>
-    <flow id="pt_bus_17:0" type="pt_bus" route="pt_bus_17:0" begin="15.0" end="3615.0" period="600" line="17:0" >
+    <flow id="pt_bus_17:0" type="pt_bus" route="pt_bus_17:0" begin="15.0" end="10815.0" period="600" line="17:0" >
         <param key="name" value="Big Blue Bus 17 Northbound: Palms =&gt; VA Medical Center =&gt; UCLA"/>
         <param key="completeness" value="0.47"/>
     </flow>
-    <flow id="pt_bus_2:0" type="pt_bus" route="pt_bus_2:0" begin="204.0" end="3804.0" period="600" line="2:0" >
+    <flow id="pt_bus_2:0" type="pt_bus" route="pt_bus_2:0" begin="204.0" end="11004.0" period="600" line="2:0" >
         <param key="name" value="Culver CityBus 2 Southbound: Venice High School =&gt; Fox Hills"/>
         <param key="completeness" value="0.88"/>
     </flow>
-    <flow id="pt_bus_Rapid_6:1" type="pt_bus" route="pt_bus_Rapid_6:1" begin="422.0" end="4022.0" period="600" line="Rapid_6:1" >
+    <flow id="pt_bus_Rapid_6:1" type="pt_bus" route="pt_bus_Rapid_6:1" begin="422.0" end="11222.0" period="600" line="Rapid_6:1" >
         <param key="name" value="Culver CityBus Rapid 6 Northbound: Aviation/LAX Station =&gt; UCLA"/>
         <param key="completeness" value="0.50"/>
     </flow>
-    <flow id="pt_bus_17:1" type="pt_bus" route="pt_bus_17:1" begin="17.0" end="3617.0" period="600" line="17:1" >
+    <flow id="pt_bus_17:1" type="pt_bus" route="pt_bus_17:1" begin="17.0" end="10817.0" period="600" line="17:1" >
         <param key="name" value="Big Blue Bus 17 Southbound: UCLA =&gt; VA Medical Center =&gt; Palms"/>
         <param key="completeness" value="0.47"/>
     </flow>
-    <flow id="pt_bus_Rapid_6:0" type="pt_bus" route="pt_bus_Rapid_6:0" begin="418.0" end="4018.0" period="600" line="Rapid_6:0" >
+    <flow id="pt_bus_Rapid_6:0" type="pt_bus" route="pt_bus_Rapid_6:0" begin="418.0" end="11218.0" period="600" line="Rapid_6:0" >
         <param key="name" value="Culver CityBus Rapid 6 Southbound: UCLA =&gt; Aviation/LAX Station"/>
         <param key="completeness" value="0.50"/>
     </flow>
-    <flow id="pt_bus_5:2" type="pt_bus" route="pt_bus_5:2" begin="437.0" end="4037.0" period="600" line="5:2" >
+    <flow id="pt_bus_5:2" type="pt_bus" route="pt_bus_5:2" begin="437.0" end="11237.0" period="600" line="5:2" >
         <param key="name" value="Culver CityBus 5 Westbound: Blair Hills =&gt; Culver City Schools"/>
         <param key="completeness" value="1.00"/>
     </flow>
-    <flow id="pt_bus_7:2" type="pt_bus" route="pt_bus_7:2" begin="253.0" end="3853.0" period="600" line="7:2" >
+    <flow id="pt_bus_7:2" type="pt_bus" route="pt_bus_7:2" begin="253.0" end="11053.0" period="600" line="7:2" >
         <param key="name" value="Culver CityBus 7 Eastbound: Marina del Rey =&gt; Culver City Station"/>
         <param key="completeness" value="0.77"/>
     </flow>
-    <flow id="pt_bus_6:1" type="pt_bus" route="pt_bus_6:1" begin="406.0" end="4006.0" period="600" line="6:1" >
+    <flow id="pt_bus_6:1" type="pt_bus" route="pt_bus_6:1" begin="406.0" end="11206.0" period="600" line="6:1" >
         <param key="name" value="Culver CityBus 6 Northbound: Aviation/LAX Station =&gt; UCLA"/>
         <param key="completeness" value="0.42"/>
     </flow>
-    <flow id="pt_bus_6:0" type="pt_bus" route="pt_bus_6:0" begin="389.0" end="3989.0" period="600" line="6:0" >
+    <flow id="pt_bus_6:0" type="pt_bus" route="pt_bus_6:0" begin="389.0" end="11189.0" period="600" line="6:0" >
         <param key="name" value="Culver CityBus 6 Southbound: UCLA =&gt; Aviation/LAX Station"/>
         <param key="completeness" value="0.41"/>
     </flow>
-    <flow id="pt_bus_7:3" type="pt_bus" route="pt_bus_7:3" begin="303.0" end="3903.0" period="600" line="7:3" >
+    <flow id="pt_bus_7:3" type="pt_bus" route="pt_bus_7:3" begin="303.0" end="11103.0" period="600" line="7:3" >
         <param key="name" value="Culver CityBus 7 Westbound: Culver City Station =&gt; Marina del Rey"/>
         <param key="completeness" value="0.76"/>
     </flow>
-    <flow id="pt_bus_1:0" type="pt_bus" route="pt_bus_1:0" begin="173.0" end="3773.0" period="600" line="1:0" >
+    <flow id="pt_bus_1:0" type="pt_bus" route="pt_bus_1:0" begin="173.0" end="10973.0" period="600" line="1:0" >
         <param key="name" value="Culver CityBus 1 Westbound: West LA Transit Center =&gt; Venice Beach"/>
         <param key="completeness" value="0.68"/>
     </flow>
-    <flow id="pt_bus_4:3" type="pt_bus" route="pt_bus_4:3" begin="363.0" end="3963.0" period="600" line="4:3" >
+    <flow id="pt_bus_4:3" type="pt_bus" route="pt_bus_4:3" begin="363.0" end="11163.0" period="600" line="4:3" >
         <param key="name" value="Culver CityBus 4 Westbound: West LA Transit Center =&gt; Playa Vista"/>
         <param key="completeness" value="0.82"/>
     </flow>
-    <flow id="pt_bus_1:1" type="pt_bus" route="pt_bus_1:1" begin="201.0" end="3801.0" period="600" line="1:1" >
+    <flow id="pt_bus_1:1" type="pt_bus" route="pt_bus_1:1" begin="201.0" end="11001.0" period="600" line="1:1" >
         <param key="name" value="Culver CityBus 1 Eastbound: Venice Beach =&gt; West LA Transit Center"/>
         <param key="completeness" value="0.65"/>
     </flow>
-    <flow id="pt_bus_4:1" type="pt_bus" route="pt_bus_4:1" begin="326.0" end="3926.0" period="600" line="4:1" >
+    <flow id="pt_bus_4:1" type="pt_bus" route="pt_bus_4:1" begin="326.0" end="11126.0" period="600" line="4:1" >
         <param key="name" value="Culver CityBus 4 Westbound: West LA Transit Center =&gt; West LA College =&gt; Playa Vista"/>
         <param key="completeness" value="0.83"/>
     </flow>
-    <flow id="pt_bus_5:3" type="pt_bus" route="pt_bus_5:3" begin="441.0" end="4041.0" period="600" line="5:3" >
+    <flow id="pt_bus_5:3" type="pt_bus" route="pt_bus_5:3" begin="441.0" end="11241.0" period="600" line="5:3" >
         <param key="name" value="Culver CityBus 5 Eastbound: Venice High School =&gt; Blair Hills"/>
         <param key="completeness" value="0.90"/>
     </flow>
-    <flow id="pt_bus_4:0" type="pt_bus" route="pt_bus_4:0" begin="321.0" end="3921.0" period="600" line="4:0" >
+    <flow id="pt_bus_4:0" type="pt_bus" route="pt_bus_4:0" begin="321.0" end="11121.0" period="600" line="4:0" >
         <param key="name" value="Culver CityBus 4 Eastbound: Playa Vista =&gt; West LA College =&gt; West LA Transit Center"/>
         <param key="completeness" value="0.86"/>
     </flow>
-    <flow id="pt_bus_4:2" type="pt_bus" route="pt_bus_4:2" begin="331.0" end="3931.0" period="600" line="4:2" >
+    <flow id="pt_bus_4:2" type="pt_bus" route="pt_bus_4:2" begin="331.0" end="11131.0" period="600" line="4:2" >
         <param key="name" value="Culver CityBus 4 Eastbound: Playa Vista =&gt; West LA Transit Center"/>
         <param key="completeness" value="0.85"/>
     </flow>
-    <flow id="pt_bus_3:0" type="pt_bus" route="pt_bus_3:0" begin="353.0" end="3953.0" period="600" line="3:0" >
+    <flow id="pt_bus_3:0" type="pt_bus" route="pt_bus_3:0" begin="353.0" end="11153.0" period="600" line="3:0" >
         <param key="name" value="Culver CityBus 3 Northbound: Playa Vista =&gt; Century City (weekends)"/>
         <param key="completeness" value="0.80"/>
     </flow>
-    <flow id="pt_bus_3:1" type="pt_bus" route="pt_bus_3:1" begin="362.0" end="3962.0" period="600" line="3:1" >
+    <flow id="pt_bus_3:1" type="pt_bus" route="pt_bus_3:1" begin="362.0" end="11162.0" period="600" line="3:1" >
         <param key="name" value="Culver CityBus 3 Southbound: Century City =&gt; Playa Vista (weekends)"/>
         <param key="completeness" value="0.71"/>
     </flow>
-    <flow id="pt_bus_3:3" type="pt_bus" route="pt_bus_3:3" begin="389.0" end="3989.0" period="600" line="3:3" >
+    <flow id="pt_bus_3:3" type="pt_bus" route="pt_bus_3:3" begin="389.0" end="11189.0" period="600" line="3:3" >
         <param key="name" value="Culver CityBus 3 Northbound: Playa Vista =&gt; Century City (weekdays)"/>
         <param key="completeness" value="0.81"/>
     </flow>
-    <flow id="pt_bus_3:2" type="pt_bus" route="pt_bus_3:2" begin="371.0" end="3971.0" period="600" line="3:2" >
+    <flow id="pt_bus_3:2" type="pt_bus" route="pt_bus_3:2" begin="371.0" end="11171.0" period="600" line="3:2" >
         <param key="name" value="Culver CityBus 3 Southbound: Century City =&gt; Playa Vista (weekdays)"/>
         <param key="completeness" value="0.73"/>
     </flow>
