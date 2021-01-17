@@ -1,0 +1,1 @@
+python $SUMO_HOME/tools/randomTrips.py -n test-grid.net.xml -o test-grid-demand.trips.xml -e 600 -p 20 --fringe-factor 10 --vehicle-class passenger --vclass passenger --prefix veh --validate
