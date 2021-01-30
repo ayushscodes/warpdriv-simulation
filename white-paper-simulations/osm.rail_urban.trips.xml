@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun Dec 20 17:40:31 2020 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.rail_urban.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.rail_urban.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10800"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="urban_rail_urban" vClass="rail_urban"/>
+    <trip id="urban0" type="urban_rail_urban" depart="0.00" departLane="best" departSpeed="max" from="346998169" to="209115129"/>
+    <trip id="urban1" type="urban_rail_urban" depart="100.00" departLane="best" departSpeed="max" from="650427046" to="392024718#4"/>
+    <trip id="urban3" type="urban_rail_urban" depart="300.00" departLane="best" from="24924334#4" to="346998176"/>
+    <trip id="urban4" type="urban_rail_urban" depart="400.00" departLane="best" departSpeed="max" from="650427046" to="392024718#4"/>
+    <trip id="urban7" type="urban_rail_urban" depart="700.00" departLane="best" departSpeed="max" from="650427046" to="663272235"/>
+    <trip id="urban9" type="urban_rail_urban" depart="900.00" departLane="best" from="650427047" to="392024718#4"/>
+    <trip id="urban13" type="urban_rail_urban" depart="1300.00" departLane="best" departSpeed="max" from="346998169" to="392024718#4"/>
+    <trip id="urban14" type="urban_rail_urban" depart="1400.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban15" type="urban_rail_urban" depart="1500.00" departLane="best" departSpeed="max" from="346998169" to="392024718#4"/>
+    <trip id="urban20" type="urban_rail_urban" depart="2000.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban22" type="urban_rail_urban" depart="2200.00" departLane="best" from="30968183#3" to="392024718#4"/>
+    <trip id="urban23" type="urban_rail_urban" depart="2300.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban28" type="urban_rail_urban" depart="2800.00" departLane="best" departSpeed="max" from="24924334#0" to="346998176"/>
+    <trip id="urban30" type="urban_rail_urban" depart="3000.00" departLane="best" departSpeed="max" from="346998169" to="663272235"/>
+    <trip id="urban31" type="urban_rail_urban" depart="3100.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban37" type="urban_rail_urban" depart="3700.00" departLane="best" from="24924334#3" to="30968197#3"/>
+    <trip id="urban39" type="urban_rail_urban" depart="3900.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban40" type="urban_rail_urban" depart="4000.00" departLane="best" departSpeed="max" from="650427046" to="392024718#4"/>
+    <trip id="urban43" type="urban_rail_urban" depart="4300.00" departLane="best" departSpeed="max" from="24924334#0" to="346998176"/>
+    <trip id="urban48" type="urban_rail_urban" depart="4800.00" departLane="best" from="30968183#3" to="663272235"/>
+    <trip id="urban50" type="urban_rail_urban" depart="5000.00" departLane="best" departSpeed="max" from="24924334#0" to="346997704#2"/>
+    <trip id="urban51" type="urban_rail_urban" depart="5100.00" departLane="best" departSpeed="max" from="346998169" to="663272235"/>
+    <trip id="urban54" type="urban_rail_urban" depart="5400.00" departLane="best" departSpeed="max" from="346998169" to="392024718#4"/>
+    <trip id="urban56" type="urban_rail_urban" depart="5600.00" departLane="best" departSpeed="max" from="346998169" to="392024718#4"/>
+    <trip id="urban61" type="urban_rail_urban" depart="6100.00" departLane="best" departSpeed="max" from="24924334#0" to="346998176"/>
+    <trip id="urban64" type="urban_rail_urban" depart="6400.00" departLane="best" from="650427053" to="392024718#4"/>
+    <trip id="urban67" type="urban_rail_urban" depart="6700.00" departLane="best" departSpeed="max" from="24924334#0" to="346998176"/>
+    <trip id="urban68" type="urban_rail_urban" depart="6800.00" departLane="best" from="30968183#5" to="392024718#4"/>
+    <trip id="urban72" type="urban_rail_urban" depart="7200.00" departLane="best" departSpeed="max" from="24924334#0" to="30968197#2"/>
+    <trip id="urban74" type="urban_rail_urban" depart="7400.00" departLane="best" departSpeed="max" from="650427046" to="663272235"/>
+    <trip id="urban80" type="urban_rail_urban" depart="8000.00" departLane="best" from="267159396" to="663272235"/>
+    <trip id="urban87" type="urban_rail_urban" depart="8700.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban89" type="urban_rail_urban" depart="8900.00" departLane="best" from="30968183#1" to="392024718#4"/>
+    <trip id="urban90" type="urban_rail_urban" depart="9000.00" departLane="best" departSpeed="max" from="650427046" to="392024718#4"/>
+    <trip id="urban93" type="urban_rail_urban" depart="9300.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban96" type="urban_rail_urban" depart="9600.00" departLane="best" departSpeed="max" from="24924334#0" to="346998176"/>
+    <trip id="urban97" type="urban_rail_urban" depart="9700.00" departLane="best" departSpeed="max" from="650427046" to="663272235"/>
+    <trip id="urban98" type="urban_rail_urban" depart="9800.00" departLane="best" from="28902266#1" to="346998176"/>
+    <trip id="urban101" type="urban_rail_urban" depart="10100.00" departLane="best" departSpeed="max" from="650427046" to="663272235"/>
+    <trip id="urban102" type="urban_rail_urban" depart="10200.00" departLane="best" departSpeed="max" from="24924334#0" to="346998173"/>
+    <trip id="urban104" type="urban_rail_urban" depart="10400.00" departLane="best" from="291399484" to="663272235"/>
+</routes>
