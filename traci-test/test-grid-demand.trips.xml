@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Sat Jan 16 18:15:12 2021 by Eclipse SUMO duarouter Version 1.8.0
+<!-- generated on Mon Jan 18 17:04:57 2021 by Eclipse SUMO duarouter Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -29,27 +29,34 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="veh_passenger" vClass="passenger"/>
-    <trip id="veh1" type="veh_passenger" depart="20.00" from="6-5" to="1-2"/>
-    <trip id="veh2" type="veh_passenger" depart="40.00" from="6-7" to="3-2"/>
-    <trip id="veh3" type="veh_passenger" depart="60.00" from="6-7" to="1-2"/>
-    <trip id="veh4" type="veh_passenger" depart="80.00" from="6-5" to="0-1"/>
-    <trip id="veh5" type="veh_passenger" depart="100.00" from="6-5" to="3-2"/>
-    <trip id="veh6" type="veh_passenger" depart="120.00" from="0-1" to="1-2"/>
-    <trip id="veh7" type="veh_passenger" depart="140.00" from="6-7" to="3-2"/>
-    <trip id="veh8" type="veh_passenger" depart="160.00" from="6-5" to="3-2"/>
-    <trip id="veh10" type="veh_passenger" depart="200.00" from="6-7" to="3-2"/>
-    <trip id="veh11" type="veh_passenger" depart="220.00" from="6-5" to="1-2"/>
+    <trip id="veh0" type="veh_passenger" depart="0.00" from="6-5" to="1-2"/>
+    <trip id="veh1" type="veh_passenger" depart="20.00" from="-5-4" to="-5-0"/>
+    <trip id="veh2" type="veh_passenger" depart="40.00" from="5-0" to="4-3"/>
+    <trip id="veh3" type="veh_passenger" depart="60.00" from="7-4" to="-3-2"/>
+    <trip id="veh4" type="veh_passenger" depart="80.00" from="-7-8" to="-0-1"/>
+    <trip id="veh5" type="veh_passenger" depart="100.00" from="-5-0" to="0-1"/>
+    <trip id="veh6" type="veh_passenger" depart="120.00" from="-0-1" to="-4-3"/>
+    <trip id="veh7" type="veh_passenger" depart="140.00" from="4-1" to="1-2"/>
+    <trip id="veh8" type="veh_passenger" depart="160.00" from="-5-0" to="3-2"/>
+    <trip id="veh9" type="veh_passenger" depart="180.00" from="6-5" to="-0-1"/>
+    <trip id="veh10" type="veh_passenger" depart="200.00" from="6-5" to="4-3"/>
+    <trip id="veh11" type="veh_passenger" depart="220.00" from="-6-7" to="-4-1"/>
+    <trip id="veh12" type="veh_passenger" depart="240.00" from="7-8" to="-6-7"/>
+    <trip id="veh13" type="veh_passenger" depart="260.00" from="-3-2" to="-3-2"/>
     <trip id="veh14" type="veh_passenger" depart="280.00" from="6-7" to="3-2"/>
-    <trip id="veh15" type="veh_passenger" depart="300.00" from="6-7" to="3-2"/>
-    <trip id="veh16" type="veh_passenger" depart="320.00" from="6-7" to="8-3"/>
-    <trip id="veh17" type="veh_passenger" depart="340.00" from="6-5" to="3-2"/>
-    <trip id="veh18" type="veh_passenger" depart="360.00" from="6-7" to="3-2"/>
-    <trip id="veh19" type="veh_passenger" depart="380.00" from="6-7" to="3-2"/>
-    <trip id="veh20" type="veh_passenger" depart="400.00" from="6-7" to="1-2"/>
-    <trip id="veh21" type="veh_passenger" depart="420.00" from="6-5" to="1-2"/>
-    <trip id="veh24" type="veh_passenger" depart="480.00" from="6-7" to="1-2"/>
-    <trip id="veh25" type="veh_passenger" depart="500.00" from="6-5" to="1-2"/>
-    <trip id="veh27" type="veh_passenger" depart="540.00" from="6-7" to="3-2"/>
-    <trip id="veh28" type="veh_passenger" depart="560.00" from="5-4" to="3-2"/>
-    <trip id="veh29" type="veh_passenger" depart="580.00" from="5-4" to="1-2"/>
+    <trip id="veh15" type="veh_passenger" depart="300.00" from="6-5" to="5-0"/>
+    <trip id="veh16" type="veh_passenger" depart="320.00" from="0-1" to="8-3"/>
+    <trip id="veh17" type="veh_passenger" depart="340.00" from="-7-4" to="1-2"/>
+    <trip id="veh18" type="veh_passenger" depart="360.00" from="6-5" to="3-2"/>
+    <trip id="veh19" type="veh_passenger" depart="380.00" from="6-7" to="1-2"/>
+    <trip id="veh20" type="veh_passenger" depart="400.00" from="4-3" to="-1-2"/>
+    <trip id="veh21" type="veh_passenger" depart="420.00" from="-5-0" to="-5-4"/>
+    <trip id="veh22" type="veh_passenger" depart="440.00" from="-1-2" to="-5-0"/>
+    <trip id="veh23" type="veh_passenger" depart="460.00" from="-3-2" to="-5-4"/>
+    <trip id="veh24" type="veh_passenger" depart="480.00" from="4-1" to="-6-7"/>
+    <trip id="veh25" type="veh_passenger" depart="500.00" from="-6-7" to="-5-0"/>
+    <trip id="veh26" type="veh_passenger" depart="520.00" from="-5-4" to="7-8"/>
+    <trip id="veh27" type="veh_passenger" depart="540.00" from="4-1" to="3-2"/>
+    <trip id="veh28" type="veh_passenger" depart="560.00" from="-4-3" to="5-0"/>
+    <trip id="veh29" type="veh_passenger" depart="580.00" from="-4-1" to="-7-4"/>
 </routes>

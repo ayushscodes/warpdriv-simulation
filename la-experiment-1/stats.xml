@@ -1,0 +1,3 @@
+<additional>
+    <edgeData id="EdgeStats" file="edge-stats.xml" excludeEmpty="true" minSamples="60"/>
+</additional>

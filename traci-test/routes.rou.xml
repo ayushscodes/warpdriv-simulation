@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Sat Jan 16 18:15:12 2021 by Eclipse SUMO duarouter Version 1.8.0
+<!-- generated on Mon Jan 18 17:04:57 2021 by Eclipse SUMO duarouter Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -29,73 +29,94 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="veh_passenger" vClass="passenger"/>
+    <vehicle id="veh0" type="veh_passenger" depart="0.00">
+        <route edges="4-1 -0-1"/>
+    </vehicle>
     <vehicle id="veh1" type="veh_passenger" depart="20.00">
-        <route edges="6-5 5-0 0-1 1-2"/>
+        <route edges="-5-4 -6-5 6-7 7-4 4-1 -0-1 -5-0"/>
     </vehicle>
     <vehicle id="veh2" type="veh_passenger" depart="40.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="5-0 0-1 -4-1 4-3"/>
     </vehicle>
     <vehicle id="veh3" type="veh_passenger" depart="60.00">
-        <route edges="6-7 7-4 4-1 1-2"/>
+        <route edges="7-4 4-1 1-2 -3-2"/>
     </vehicle>
     <vehicle id="veh4" type="veh_passenger" depart="80.00">
-        <route edges="6-5 5-0 0-1"/>
+        <route edges="-7-8 7-4 4-1 -0-1"/>
     </vehicle>
     <vehicle id="veh5" type="veh_passenger" depart="100.00">
-        <route edges="6-5 5-4 4-3 3-2"/>
+        <route edges="-5-0 -6-5 6-7 7-4 -5-4 5-0 0-1"/>
     </vehicle>
     <vehicle id="veh6" type="veh_passenger" depart="120.00">
-        <route edges="0-1 1-2"/>
+        <route edges="-0-1 -5-0 -6-5 6-7 7-8 8-3 -4-3"/>
     </vehicle>
     <vehicle id="veh7" type="veh_passenger" depart="140.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="4-1 1-2"/>
     </vehicle>
     <vehicle id="veh8" type="veh_passenger" depart="160.00">
-        <route edges="6-5 5-4 4-3 3-2"/>
+        <route edges="-5-0 5-4 4-3 3-2"/>
+    </vehicle>
+    <vehicle id="veh9" type="veh_passenger" depart="180.00">
+        <route edges="6-5 5-4 4-1 -0-1"/>
     </vehicle>
     <vehicle id="veh10" type="veh_passenger" depart="200.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="6-5 5-4 4-3"/>
     </vehicle>
     <vehicle id="veh11" type="veh_passenger" depart="220.00">
-        <route edges="6-5 5-0 0-1 1-2"/>
+        <route edges="-6-7 6-5 5-0 0-1 -4-1"/>
+    </vehicle>
+    <vehicle id="veh12" type="veh_passenger" depart="240.00">
+        <route edges="7-8 8-3 -4-3 -7-4 -6-7"/>
+    </vehicle>
+    <vehicle id="veh13" type="veh_passenger" depart="260.00">
+        <route edges="-3-2"/>
     </vehicle>
     <vehicle id="veh14" type="veh_passenger" depart="280.00">
         <route edges="6-7 7-8 8-3 3-2"/>
     </vehicle>
     <vehicle id="veh15" type="veh_passenger" depart="300.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="6-5 5-0"/>
     </vehicle>
     <vehicle id="veh16" type="veh_passenger" depart="320.00">
-        <route edges="6-7 7-8 8-3"/>
+        <route edges="0-1 -4-1 -7-4 7-8 8-3"/>
     </vehicle>
     <vehicle id="veh17" type="veh_passenger" depart="340.00">
-        <route edges="6-5 5-4 4-3 3-2"/>
+        <route edges="-7-4 -6-7 6-5 5-0 0-1 1-2"/>
     </vehicle>
     <vehicle id="veh18" type="veh_passenger" depart="360.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="6-5 5-4 4-3 3-2"/>
     </vehicle>
     <vehicle id="veh19" type="veh_passenger" depart="380.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="6-7 7-4 4-1 1-2"/>
     </vehicle>
     <vehicle id="veh20" type="veh_passenger" depart="400.00">
-        <route edges="6-7 7-4 4-1 1-2"/>
+        <route edges="4-3 3-2 -1-2"/>
     </vehicle>
     <vehicle id="veh21" type="veh_passenger" depart="420.00">
-        <route edges="6-5 5-0 0-1 1-2"/>
+        <route edges="-5-0 -6-5 6-7 7-4 -5-4"/>
+    </vehicle>
+    <vehicle id="veh22" type="veh_passenger" depart="440.00">
+        <route edges="-1-2 -0-1 -5-0"/>
+    </vehicle>
+    <vehicle id="veh23" type="veh_passenger" depart="460.00">
+        <route edges="-3-2 -4-3 -5-4"/>
     </vehicle>
     <vehicle id="veh24" type="veh_passenger" depart="480.00">
-        <route edges="6-7 7-4 4-1 1-2"/>
+        <route edges="4-1 1-2 -3-2 -8-3 -7-8 -6-7"/>
     </vehicle>
     <vehicle id="veh25" type="veh_passenger" depart="500.00">
-        <route edges="6-5 5-0 0-1 1-2"/>
+        <route edges="-6-7 6-5 5-4 4-1 -0-1 -5-0"/>
+    </vehicle>
+    <vehicle id="veh26" type="veh_passenger" depart="520.00">
+        <route edges="-5-4 -6-5 6-7 7-8"/>
     </vehicle>
     <vehicle id="veh27" type="veh_passenger" depart="540.00">
-        <route edges="6-7 7-8 8-3 3-2"/>
+        <route edges="4-1 -0-1 -5-0 5-4 4-3 3-2"/>
     </vehicle>
     <vehicle id="veh28" type="veh_passenger" depart="560.00">
-        <route edges="5-4 4-3 3-2"/>
+        <route edges="-4-3 -5-4 5-0"/>
     </vehicle>
     <vehicle id="veh29" type="veh_passenger" depart="580.00">
-        <route edges="5-4 4-1 1-2"/>
+        <route edges="-4-1 -7-4"/>
     </vehicle>
 </routes>
