@@ -17,3 +17,9 @@ python $SUMO_HOME/tools/randomTrips.py -n osm.net.xml --fringe-factor 40 -p 100 
 
 # LA Final Simulation Run | Baseline peak hour traffic
 python $SUMO_HOME/tools/randomTripsModified.py -n osm.net.xml --fringe-factor 10 -o osm.passengerPeakGaussian.trips.xml -e 10800 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 3000 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --validate -l -L --mu 5400 --sigma 1800 --peak-vehicle-rate 2
+
+
+# HOV Redemption Modeling
+python $SUMO_HOME/tools/randomTrips.py -n osm_hov.net.xml --fringe-factor 10 -p 0.5 -o osm.passengerBaseline.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 3000 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --validate -l -L
+python $SUMO_HOME/tools/randomTrips.py -n osm_hov.net.xml --fringe-factor 10 -p 1.28 -o osm.hov.trips.xml -e 3600 --vehicle-class hov --vclass hov --prefix hov --min-distance 3000 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --validate -l -L
+
